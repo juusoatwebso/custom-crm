@@ -1,0 +1,120 @@
+{
+  "add_time": {
+    "type": "datetime",
+    "fill_rate": 1.0,
+    "sample": "2023-01-16T21:24:27.173Z"
+  },
+  "archive_time": {
+    "type": "null",
+    "fill_rate": 0.0,
+    "sample": null
+  },
+  "cc_email": {
+    "type": "string",
+    "fill_rate": 1.0,
+    "sample": "websooy+11226731+lead2cw9wiet36ij3fti8rxrdrdaq@pipedrivemail.com"
+  },
+  "channel": {
+    "type": "null",
+    "fill_rate": 0.008,
+    "sample": 59
+  },
+  "channel_id": {
+    "type": "null",
+    "fill_rate": 0.008,
+    "sample": "Zapier"
+  },
+  "creator_id": {
+    "type": "integer",
+    "fill_rate": 1.0,
+    "sample": 14953715
+  },
+  "expected_close_date": {
+    "type": "null",
+    "fill_rate": 0.008,
+    "sample": "2022-11-24"
+  },
+  "id": {
+    "type": "string",
+    "fill_rate": 1.0,
+    "sample": "27d55d50-95e4-11ed-ad4a-218117e1c512"
+  },
+  "is_archived": {
+    "type": "boolean",
+    "fill_rate": 1.0,
+    "sample": false
+  },
+  "label_ids": {
+    "type": "array",
+    "fill_rate": 0.181,
+    "sample": "e9992e21-ee81-4991-beca-28bf2cfdb91f"
+  },
+  "next_activity_id": {
+    "type": "null",
+    "fill_rate": 0.019,
+    "sample": 2118
+  },
+  "organization_id": {
+    "type": "integer",
+    "fill_rate": 0.988,
+    "sample": 9
+  },
+  "origin": {
+    "type": "string",
+    "fill_rate": 1.0,
+    "sample": "ManuallyCreated"
+  },
+  "origin_id": {
+    "type": "null",
+    "fill_rate": 0.023,
+    "sample": "7"
+  },
+  "owner_id": {
+    "type": "integer",
+    "fill_rate": 1.0,
+    "sample": 14953704
+  },
+  "person_id": {
+    "type": "integer",
+    "fill_rate": 0.969,
+    "sample": 15
+  },
+  "source_deal_id": {
+    "type": "null",
+    "fill_rate": 0.4,
+    "sample": 7
+  },
+  "source_name": {
+    "type": "string",
+    "fill_rate": 1.0,
+    "sample": "Deal"
+  },
+  "title": {
+    "type": "string",
+    "fill_rate": 1.0,
+    "sample": "Frendix Oy deal"
+  },
+  "update_time": {
+    "type": "datetime",
+    "fill_rate": 1.0,
+    "sample": "2026-03-11T08:48:54.074Z"
+  },
+  "value": {
+    "type": "null",
+    "fill_rate": 0.015,
+    "sample": {
+      "amount": 98000,
+      "currency": "EUR"
+    }
+  },
+  "visible_to": {
+    "type": "string",
+    "fill_rate": 1.0,
+    "sample": "3"
+  },
+  "was_seen": {
+    "type": "boolean",
+    "fill_rate": 1.0,
+    "sample": true
+  }
+}

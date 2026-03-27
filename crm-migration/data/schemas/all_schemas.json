@@ -1,0 +1,923 @@
+{
+  "organizations": {
+    "add_time": {
+      "type": "datetime",
+      "fill_rate": 1.0,
+      "sample": "2022-09-05T11:21:21Z"
+    },
+    "address": {
+      "type": "null",
+      "fill_rate": 0.388,
+      "sample": {
+        "value": "Tykistökatu 4 A",
+        "subpremise": null,
+        "street_number": "4a",
+        "route": "Tykistökatu"
+      }
+    },
+    "annual_revenue": {
+      "type": "null",
+      "fill_rate": 0.001,
+      "sample": 4
+    },
+    "custom_fields": {
+      "type": "object",
+      "fill_rate": 1.0,
+      "sample": {
+        "a233077bb653400c6a6fcfebb3851cd4dd039915": null,
+        "931425dd4a675487146add0d454d2927ce41f2fc": null,
+        "8e248eb04d03c62894bc34a39a7a395ae5a007fa": null,
+        "312b2fa7cef1b39558d40e2b64e659ccf8993680": null
+      }
+    },
+    "employee_count": {
+      "type": "null",
+      "fill_rate": 0.0,
+      "sample": null
+    },
+    "id": {
+      "type": "integer",
+      "fill_rate": 1.0,
+      "sample": 1
+    },
+    "industry": {
+      "type": "null",
+      "fill_rate": 0.0,
+      "sample": 17
+    },
+    "is_deleted": {
+      "type": "boolean",
+      "fill_rate": 1.0,
+      "sample": false
+    },
+    "label_ids": {
+      "type": "array",
+      "fill_rate": 0.555,
+      "sample": 46
+    },
+    "linkedin": {
+      "type": "null",
+      "fill_rate": 0.0,
+      "sample": null
+    },
+    "name": {
+      "type": "string",
+      "fill_rate": 1.0,
+      "sample": "QAutomate Oy"
+    },
+    "owner_id": {
+      "type": "integer",
+      "fill_rate": 1.0,
+      "sample": 14953704
+    },
+    "update_time": {
+      "type": "datetime",
+      "fill_rate": 1.0,
+      "sample": "2024-03-04T12:03:51Z"
+    },
+    "visible_to": {
+      "type": "integer",
+      "fill_rate": 1.0,
+      "sample": 3
+    },
+    "website": {
+      "type": "null",
+      "fill_rate": 0.0,
+      "sample": null
+    }
+  },
+  "persons": {
+    "add_time": {
+      "type": "datetime",
+      "fill_rate": 1.0,
+      "sample": "2022-09-05T11:03:49Z"
+    },
+    "custom_fields": {
+      "type": "object",
+      "fill_rate": 1.0,
+      "sample": {
+        "4c9293737b1fa9399cb4eeb5c36c5391bc10bddd": null,
+        "e629f88dd960275ca6aadfe10ff8608578433f5c": null,
+        "97806f26559aeeac62c7a93740024a92e21ff909": null
+      }
+    },
+    "emails": {
+      "type": "array",
+      "fill_rate": 0.67,
+      "sample": {
+        "label": "",
+        "value": "pekka@webso.fi",
+        "primary": true
+      }
+    },
+    "first_name": {
+      "type": "string",
+      "fill_rate": 1.0,
+      "sample": "Pekka"
+    },
+    "id": {
+      "type": "integer",
+      "fill_rate": 1.0,
+      "sample": 1
+    },
+    "is_deleted": {
+      "type": "boolean",
+      "fill_rate": 1.0,
+      "sample": false
+    },
+    "label_ids": {
+      "type": "array",
+      "fill_rate": 0.003,
+      "sample": 7
+    },
+    "last_name": {
+      "type": "string",
+      "fill_rate": 0.995,
+      "sample": "Lähteenmäki"
+    },
+    "name": {
+      "type": "string",
+      "fill_rate": 1.0,
+      "sample": "Pekka"
+    },
+    "org_id": {
+      "type": "integer",
+      "fill_rate": 0.806,
+      "sample": 1
+    },
+    "owner_id": {
+      "type": "integer",
+      "fill_rate": 1.0,
+      "sample": 14953693
+    },
+    "phones": {
+      "type": "array",
+      "fill_rate": 0.914,
+      "sample": {
+        "label": "work",
+        "value": "0405472446",
+        "primary": true
+      }
+    },
+    "picture_id": {
+      "type": "null",
+      "fill_rate": 0.014,
+      "sample": 1
+    },
+    "update_time": {
+      "type": "datetime",
+      "fill_rate": 1.0,
+      "sample": "2025-02-04T06:06:15Z"
+    },
+    "visible_to": {
+      "type": "integer",
+      "fill_rate": 1.0,
+      "sample": 3
+    }
+  },
+  "deals": {
+    "acv": {
+      "type": "null",
+      "fill_rate": 0.046,
+      "sample": 105000.0
+    },
+    "add_time": {
+      "type": "datetime",
+      "fill_rate": 1.0,
+      "sample": "2022-09-05T11:29:01Z"
+    },
+    "archive_time": {
+      "type": "null",
+      "fill_rate": 0.0,
+      "sample": null
+    },
+    "arr": {
+      "type": "null",
+      "fill_rate": 0.046,
+      "sample": 0.0
+    },
+    "channel": {
+      "type": "null",
+      "fill_rate": 0.029,
+      "sample": 59
+    },
+    "channel_id": {
+      "type": "null",
+      "fill_rate": 0.027,
+      "sample": "Zapier"
+    },
+    "close_time": {
+      "type": "null",
+      "fill_rate": 0.321,
+      "sample": "2022-09-11T14:43:57Z"
+    },
+    "creator_user_id": {
+      "type": "integer",
+      "fill_rate": 1.0,
+      "sample": 14953704
+    },
+    "currency": {
+      "type": "string",
+      "fill_rate": 1.0,
+      "sample": "EUR"
+    },
+    "custom_fields": {
+      "type": "object",
+      "fill_rate": 1.0,
+      "sample": {
+        "27d4af5421c600368b825b433bae74c2691e19a9": null
+      }
+    },
+    "expected_close_date": {
+      "type": "null",
+      "fill_rate": 0.048,
+      "sample": "2022-09-30"
+    },
+    "id": {
+      "type": "integer",
+      "fill_rate": 1.0,
+      "sample": 1
+    },
+    "is_archived": {
+      "type": "boolean",
+      "fill_rate": 1.0,
+      "sample": false
+    },
+    "is_deleted": {
+      "type": "boolean",
+      "fill_rate": 1.0,
+      "sample": false
+    },
+    "label_ids": {
+      "type": "array",
+      "fill_rate": 0.145,
+      "sample": 22
+    },
+    "local_close_date": {
+      "type": "null",
+      "fill_rate": 0.097,
+      "sample": "2024-02-19"
+    },
+    "local_lost_date": {
+      "type": "null",
+      "fill_rate": 0.064,
+      "sample": "2024-02-19"
+    },
+    "local_won_date": {
+      "type": "null",
+      "fill_rate": 0.033,
+      "sample": "2024-09-29"
+    },
+    "lost_reason": {
+      "type": "null",
+      "fill_rate": 0.259,
+      "sample": "ei tarvetta webson koodakselle"
+    },
+    "lost_time": {
+      "type": "null",
+      "fill_rate": 0.259,
+      "sample": "2022-09-11T14:43:57Z"
+    },
+    "mrr": {
+      "type": "null",
+      "fill_rate": 0.046,
+      "sample": 0.0
+    },
+    "org_id": {
+      "type": "integer",
+      "fill_rate": 1.0,
+      "sample": 1
+    },
+    "origin": {
+      "type": "string",
+      "fill_rate": 1.0,
+      "sample": "ManuallyCreated"
+    },
+    "origin_id": {
+      "type": "null",
+      "fill_rate": 0.029,
+      "sample": "321"
+    },
+    "owner_id": {
+      "type": "integer",
+      "fill_rate": 1.0,
+      "sample": 14953704
+    },
+    "person_id": {
+      "type": "integer",
+      "fill_rate": 0.954,
+      "sample": 3
+    },
+    "pipeline_id": {
+      "type": "integer",
+      "fill_rate": 1.0,
+      "sample": 3
+    },
+    "probability": {
+      "type": "null",
+      "fill_rate": 0.062,
+      "sample": 60
+    },
+    "stage_change_time": {
+      "type": "datetime",
+      "fill_rate": 0.781,
+      "sample": "2023-11-10T13:15:19Z"
+    },
+    "stage_id": {
+      "type": "integer",
+      "fill_rate": 1.0,
+      "sample": 10
+    },
+    "status": {
+      "type": "string",
+      "fill_rate": 1.0,
+      "sample": "lost"
+    },
+    "title": {
+      "type": "string",
+      "fill_rate": 1.0,
+      "sample": "QAutomate lead"
+    },
+    "update_time": {
+      "type": "datetime",
+      "fill_rate": 1.0,
+      "sample": "2023-11-10T13:15:19Z"
+    },
+    "value": {
+      "type": "float",
+      "fill_rate": 1.0,
+      "sample": 0.0
+    },
+    "visible_to": {
+      "type": "integer",
+      "fill_rate": 1.0,
+      "sample": 3
+    },
+    "won_time": {
+      "type": "null",
+      "fill_rate": 0.062,
+      "sample": "2022-12-12T13:58:23Z"
+    }
+  },
+  "leads": {
+    "add_time": {
+      "type": "datetime",
+      "fill_rate": 1.0,
+      "sample": "2023-01-16T21:24:27.173Z"
+    },
+    "archive_time": {
+      "type": "null",
+      "fill_rate": 0.0,
+      "sample": null
+    },
+    "cc_email": {
+      "type": "string",
+      "fill_rate": 1.0,
+      "sample": "websooy+11226731+lead2cw9wiet36ij3fti8rxrdrdaq@pipedrivemail.com"
+    },
+    "channel": {
+      "type": "null",
+      "fill_rate": 0.008,
+      "sample": 59
+    },
+    "channel_id": {
+      "type": "null",
+      "fill_rate": 0.008,
+      "sample": "Zapier"
+    },
+    "creator_id": {
+      "type": "integer",
+      "fill_rate": 1.0,
+      "sample": 14953715
+    },
+    "expected_close_date": {
+      "type": "null",
+      "fill_rate": 0.008,
+      "sample": "2022-11-24"
+    },
+    "id": {
+      "type": "string",
+      "fill_rate": 1.0,
+      "sample": "27d55d50-95e4-11ed-ad4a-218117e1c512"
+    },
+    "is_archived": {
+      "type": "boolean",
+      "fill_rate": 1.0,
+      "sample": false
+    },
+    "label_ids": {
+      "type": "array",
+      "fill_rate": 0.181,
+      "sample": "e9992e21-ee81-4991-beca-28bf2cfdb91f"
+    },
+    "next_activity_id": {
+      "type": "null",
+      "fill_rate": 0.019,
+      "sample": 2118
+    },
+    "organization_id": {
+      "type": "integer",
+      "fill_rate": 0.988,
+      "sample": 9
+    },
+    "origin": {
+      "type": "string",
+      "fill_rate": 1.0,
+      "sample": "ManuallyCreated"
+    },
+    "origin_id": {
+      "type": "null",
+      "fill_rate": 0.023,
+      "sample": "7"
+    },
+    "owner_id": {
+      "type": "integer",
+      "fill_rate": 1.0,
+      "sample": 14953704
+    },
+    "person_id": {
+      "type": "integer",
+      "fill_rate": 0.969,
+      "sample": 15
+    },
+    "source_deal_id": {
+      "type": "null",
+      "fill_rate": 0.4,
+      "sample": 7
+    },
+    "source_name": {
+      "type": "string",
+      "fill_rate": 1.0,
+      "sample": "Deal"
+    },
+    "title": {
+      "type": "string",
+      "fill_rate": 1.0,
+      "sample": "Frendix Oy deal"
+    },
+    "update_time": {
+      "type": "datetime",
+      "fill_rate": 1.0,
+      "sample": "2026-03-11T08:48:54.074Z"
+    },
+    "value": {
+      "type": "null",
+      "fill_rate": 0.015,
+      "sample": {
+        "amount": 98000,
+        "currency": "EUR"
+      }
+    },
+    "visible_to": {
+      "type": "string",
+      "fill_rate": 1.0,
+      "sample": "3"
+    },
+    "was_seen": {
+      "type": "boolean",
+      "fill_rate": 1.0,
+      "sample": true
+    }
+  },
+  "activities": {
+    "add_time": {
+      "type": "datetime",
+      "fill_rate": 1.0,
+      "sample": "2022-09-05T11:18:31Z"
+    },
+    "busy": {
+      "type": "boolean",
+      "fill_rate": 1.0,
+      "sample": false
+    },
+    "conference_meeting_client": {
+      "type": "null",
+      "fill_rate": 0.023,
+      "sample": "57da5c3c55a82bb6"
+    },
+    "conference_meeting_id": {
+      "type": "null",
+      "fill_rate": 0.0,
+      "sample": null
+    },
+    "conference_meeting_url": {
+      "type": "null",
+      "fill_rate": 0.023,
+      "sample": "https://meet.google.com/yym-yjtx-nrt"
+    },
+    "creator_user_id": {
+      "type": "integer",
+      "fill_rate": 1.0,
+      "sample": 14953704
+    },
+    "deal_id": {
+      "type": "null",
+      "fill_rate": 0.271,
+      "sample": 2
+    },
+    "done": {
+      "type": "boolean",
+      "fill_rate": 1.0,
+      "sample": true
+    },
+    "due_date": {
+      "type": "date",
+      "fill_rate": 1.0,
+      "sample": "2022-02-20"
+    },
+    "due_time": {
+      "type": "string",
+      "fill_rate": 0.523,
+      "sample": "13:00"
+    },
+    "duration": {
+      "type": "null",
+      "fill_rate": 0.431,
+      "sample": "24:00"
+    },
+    "id": {
+      "type": "integer",
+      "fill_rate": 1.0,
+      "sample": 2
+    },
+    "is_deleted": {
+      "type": "boolean",
+      "fill_rate": 1.0,
+      "sample": false
+    },
+    "lead_id": {
+      "type": "null",
+      "fill_rate": 0.125,
+      "sample": "e787b1d0-9660-11ed-bb56-27ffb3ca5997"
+    },
+    "location": {
+      "type": "null",
+      "fill_rate": 0.031,
+      "sample": {
+        "value": "Funland ",
+        "subpremise": null,
+        "street_number": null,
+        "route": null
+      }
+    },
+    "marked_as_done_time": {
+      "type": "datetime",
+      "fill_rate": 0.94,
+      "sample": "2022-09-05T11:18:31Z"
+    },
+    "note": {
+      "type": "null",
+      "fill_rate": 0.458,
+      "sample": "<p>Hei,</p><p>Sovin teille tapaamisen, käydyn keskustelun tiedot löytyvät alta. Lähetättehän vahvistuksena kalenterikutsun prospektille, kiitos.</p><p>&nbsp;</p><p>Haastattelupäivä:&nbsp;26.8.2022</p><p>Klo:&nbsp;13:08</p><p>Yritys:&nbsp;Dieta Oy</p><p>Puh:&nbsp;0404552240</p><p>Osoite:&nbsp;Holkkitie 8A</p><p>Postinumero ja toimipaikka:&nbsp;00811&nbsp;HELSINKI</p><p>Haastateltu:&nbsp;Tietohallintojohtaja&nbsp;Marko Nousiainen</p><p>Toimenpide: Etätapaaminen<br><br>Tapaamisen PVM: 12.9.2022<br>Kellonaika: 12:00<br><br>Agenda: Kertoi, että Webson konsepti kuulostaa oikein mielenkiintoiselta, ja heillä on juuri resurssipula verkkokaupan kehittämiseen liittyvissä asioissa. On juuri keräämässä listaa asioista, mihin kaikkeen tarvitsevat apua, ja tulevana maanantaina on palaveri yhteistyökumppanin kanssa. On kiinnostunut kuulemaan Webson toimintatavasta ja hinnoittelusta, onko esim. projektikohtainen, könttähintainen, tuntiperusteinen vai millainen. Sovittiin Teams-palaveri ma 12.9. klo 12.00. Ajoi juuri autoa, eikä siis ollut kalenterin äärellä, mutta muisteli tämän ajankohdan sopivan.<br>&nbsp;</p><p>Sähköpostiosoite:&nbsp;<a href=\"mailto:marko.nousiainen@dieta.fi\" rel=\"noopener noreferrer\">marko.nousiainen@dieta.fi</a></p><p>&nbsp;</p><p>Lähetättehän kalenterikutsun prospektille sovitusti, kiitos.</p><p>&nbsp;</p><p>Terveisin,</p><p>Niina Mäkinen</p><p>MicroMedia Oy</p>"
+    },
+    "org_id": {
+      "type": "integer",
+      "fill_rate": 0.814,
+      "sample": 2
+    },
+    "owner_id": {
+      "type": "integer",
+      "fill_rate": 1.0,
+      "sample": 14953704
+    },
+    "participants": {
+      "type": "array",
+      "fill_rate": 0.762,
+      "sample": {
+        "person_id": 4,
+        "primary": true
+      }
+    },
+    "person_id": {
+      "type": "integer",
+      "fill_rate": 0.762,
+      "sample": 4
+    },
+    "priority": {
+      "type": "null",
+      "fill_rate": 0.001,
+      "sample": 40
+    },
+    "project_id": {
+      "type": "null",
+      "fill_rate": 0.0,
+      "sample": null
+    },
+    "public_description": {
+      "type": "string",
+      "fill_rate": 0.061,
+      "sample": "Puhujat + catering + tilan varaus"
+    },
+    "subject": {
+      "type": "string",
+      "fill_rate": 1.0,
+      "sample": "Paavon syndet"
+    },
+    "type": {
+      "type": "string",
+      "fill_rate": 1.0,
+      "sample": "meeting"
+    },
+    "update_time": {
+      "type": "datetime",
+      "fill_rate": 1.0,
+      "sample": "2026-03-07T12:49:12Z"
+    }
+  },
+  "notes": {
+    "active_flag": {
+      "type": "boolean",
+      "fill_rate": 1.0,
+      "sample": true
+    },
+    "add_time": {
+      "type": "string",
+      "fill_rate": 1.0,
+      "sample": "2022-09-07 07:03:01"
+    },
+    "content": {
+      "type": "string",
+      "fill_rate": 1.0,
+      "sample": "Palaverin muistiinpanot:<br><ul><li>QAutomatella voi olla tarvetta lyhyen varjoitus ajan devaamiseen. Yleisesti heillä löytyy paljon omia devaajia jotka voivat hoitaa tarpeet.</li><li>QAutomate kuuluu yritys ryppääseen jossa on Q-Factory Oy sekä Codemen Oy</li><ul><li>Codemen on yritys joka tekee ohjelmisto projektien läpimyyntiä sekä henkilöstö vuokrausta.</li><li>Jossain kohtaa Tero mainitsi, että joitain yhteistyö kumppaneita on baltian maissa.</li></ul><li>Codemen verkostoon kuuluville lähetetään kaikki tarjoukset jotka heille saapuvat. #ilmasia-liidejä.</li><li>Codemen ottaa n 10-15 prosenttia provikkaa riippuu siitä kuka tekee myynti työn. Jos codemen ei tee myyntityötä niin provikkaa otetaan vähemmän.<br><br></li><li>Jatkotoimenpiteenä liitytään codemen verkostoon sekä soitetaan Terolle lokakuussa checkuppia varten.<br></li></ul>"
+    },
+    "deal": {
+      "type": "object",
+      "fill_rate": 0.575,
+      "sample": {
+        "title": "QAutomate lead"
+      }
+    },
+    "deal_id": {
+      "type": "integer",
+      "fill_rate": 0.575,
+      "sample": 1
+    },
+    "id": {
+      "type": "integer",
+      "fill_rate": 1.0,
+      "sample": 1
+    },
+    "last_update_user_id": {
+      "type": "null",
+      "fill_rate": 0.004,
+      "sample": 14953704
+    },
+    "lead": {
+      "type": "null",
+      "fill_rate": 0.168,
+      "sample": {
+        "title": "Flashnode Oy deal"
+      }
+    },
+    "lead_id": {
+      "type": "null",
+      "fill_rate": 0.168,
+      "sample": "34531220-cccf-11ee-9619-5df437bd956c"
+    },
+    "org_id": {
+      "type": "integer",
+      "fill_rate": 0.992,
+      "sample": 1
+    },
+    "organization": {
+      "type": "object",
+      "fill_rate": 0.992,
+      "sample": {
+        "name": "QAutomate Oy"
+      }
+    },
+    "person": {
+      "type": "object",
+      "fill_rate": 0.893,
+      "sample": {
+        "name": "Tero Lähteenmäki"
+      }
+    },
+    "person_id": {
+      "type": "integer",
+      "fill_rate": 0.893,
+      "sample": 3
+    },
+    "pinned_to_deal_flag": {
+      "type": "boolean",
+      "fill_rate": 1.0,
+      "sample": false
+    },
+    "pinned_to_lead_flag": {
+      "type": "boolean",
+      "fill_rate": 1.0,
+      "sample": false
+    },
+    "pinned_to_organization_flag": {
+      "type": "boolean",
+      "fill_rate": 1.0,
+      "sample": false
+    },
+    "pinned_to_person_flag": {
+      "type": "boolean",
+      "fill_rate": 1.0,
+      "sample": false
+    },
+    "update_time": {
+      "type": "string",
+      "fill_rate": 1.0,
+      "sample": "2022-09-07 07:03:01"
+    },
+    "user": {
+      "type": "object",
+      "fill_rate": 1.0,
+      "sample": {
+        "email": "pekka@webso.fi",
+        "name": "Pekka Mattinen",
+        "icon_url": null,
+        "is_you": false
+      }
+    },
+    "user_id": {
+      "type": "integer",
+      "fill_rate": 1.0,
+      "sample": 14953704
+    }
+  },
+  "products": {
+    "add_time": {
+      "type": "datetime",
+      "fill_rate": 1.0,
+      "sample": "2023-06-12T12:37:57Z"
+    },
+    "billing_frequency": {
+      "type": "string",
+      "fill_rate": 1.0,
+      "sample": "one-time"
+    },
+    "billing_frequency_cycles": {
+      "type": "null",
+      "fill_rate": 0.0,
+      "sample": null
+    },
+    "category": {
+      "type": "null",
+      "fill_rate": 0.0,
+      "sample": null
+    },
+    "code": {
+      "type": "string",
+      "fill_rate": 0.071,
+      "sample": "Kamppis koodi"
+    },
+    "custom_fields": {
+      "type": "object",
+      "fill_rate": 0.0,
+      "sample": null
+    },
+    "description": {
+      "type": "string",
+      "fill_rate": 0.0,
+      "sample": null
+    },
+    "id": {
+      "type": "integer",
+      "fill_rate": 1.0,
+      "sample": 1
+    },
+    "is_deleted": {
+      "type": "boolean",
+      "fill_rate": 1.0,
+      "sample": false
+    },
+    "is_linkable": {
+      "type": "boolean",
+      "fill_rate": 1.0,
+      "sample": true
+    },
+    "name": {
+      "type": "string",
+      "fill_rate": 1.0,
+      "sample": "Aleksi - Alihankinta"
+    },
+    "owner_id": {
+      "type": "integer",
+      "fill_rate": 1.0,
+      "sample": 14953704
+    },
+    "prices": {
+      "type": "array",
+      "fill_rate": 1.0,
+      "sample": {
+        "product_id": 1,
+        "price": 0,
+        "currency": "EUR",
+        "cost": 0
+      }
+    },
+    "tax": {
+      "type": "integer",
+      "fill_rate": 1.0,
+      "sample": 0
+    },
+    "unit": {
+      "type": "string",
+      "fill_rate": 0.0,
+      "sample": null
+    },
+    "update_time": {
+      "type": "datetime",
+      "fill_rate": 1.0,
+      "sample": "2023-06-12T12:37:58Z"
+    },
+    "visible_to": {
+      "type": "integer",
+      "fill_rate": 1.0,
+      "sample": 3
+    }
+  },
+  "pipelines": {
+    "add_time": {
+      "type": "datetime",
+      "fill_rate": 1.0,
+      "sample": "2023-01-20T15:01:34Z"
+    },
+    "id": {
+      "type": "integer",
+      "fill_rate": 1.0,
+      "sample": 2
+    },
+    "is_deal_probability_enabled": {
+      "type": "boolean",
+      "fill_rate": 1.0,
+      "sample": true
+    },
+    "is_deleted": {
+      "type": "boolean",
+      "fill_rate": 1.0,
+      "sample": false
+    },
+    "name": {
+      "type": "string",
+      "fill_rate": 1.0,
+      "sample": "UP-SELL"
+    },
+    "order_nr": {
+      "type": "integer",
+      "fill_rate": 1.0,
+      "sample": 1
+    },
+    "update_time": {
+      "type": "datetime",
+      "fill_rate": 1.0,
+      "sample": "2023-01-20T15:01:45Z"
+    }
+  },
+  "stages": {
+    "add_time": {
+      "type": "datetime",
+      "fill_rate": 1.0,
+      "sample": "2023-01-20T15:01:34Z"
+    },
+    "days_to_rotten": {
+      "type": "null",
+      "fill_rate": 0.037,
+      "sample": 160
+    },
+    "deal_probability": {
+      "type": "integer",
+      "fill_rate": 1.0,
+      "sample": 100
+    },
+    "id": {
+      "type": "integer",
+      "fill_rate": 1.0,
+      "sample": 7
+    },
+    "is_deal_rot_enabled": {
+      "type": "boolean",
+      "fill_rate": 1.0,
+      "sample": false
+    },
+    "is_deleted": {
+      "type": "boolean",
+      "fill_rate": 1.0,
+      "sample": false
+    },
+    "name": {
+      "type": "string",
+      "fill_rate": 1.0,
+      "sample": "Keskustelu avattu"
+    },
+    "order_nr": {
+      "type": "integer",
+      "fill_rate": 1.0,
+      "sample": 1
+    },
+    "pipeline_id": {
+      "type": "integer",
+      "fill_rate": 1.0,
+      "sample": 2
+    },
+    "update_time": {
+      "type": "datetime",
+      "fill_rate": 1.0,
+      "sample": "2023-02-24T10:49:50Z"
+    }
+  }
+}

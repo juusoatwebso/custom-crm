@@ -1,0 +1,89 @@
+{
+  "add_time": {
+    "type": "datetime",
+    "fill_rate": 1.0,
+    "sample": "2022-09-05T11:03:49Z"
+  },
+  "custom_fields": {
+    "type": "object",
+    "fill_rate": 1.0,
+    "sample": {
+      "4c9293737b1fa9399cb4eeb5c36c5391bc10bddd": null,
+      "e629f88dd960275ca6aadfe10ff8608578433f5c": null,
+      "97806f26559aeeac62c7a93740024a92e21ff909": null
+    }
+  },
+  "emails": {
+    "type": "array",
+    "fill_rate": 0.67,
+    "sample": {
+      "label": "",
+      "value": "pekka@webso.fi",
+      "primary": true
+    }
+  },
+  "first_name": {
+    "type": "string",
+    "fill_rate": 1.0,
+    "sample": "Pekka"
+  },
+  "id": {
+    "type": "integer",
+    "fill_rate": 1.0,
+    "sample": 1
+  },
+  "is_deleted": {
+    "type": "boolean",
+    "fill_rate": 1.0,
+    "sample": false
+  },
+  "label_ids": {
+    "type": "array",
+    "fill_rate": 0.003,
+    "sample": 7
+  },
+  "last_name": {
+    "type": "string",
+    "fill_rate": 0.995,
+    "sample": "Lähteenmäki"
+  },
+  "name": {
+    "type": "string",
+    "fill_rate": 1.0,
+    "sample": "Pekka"
+  },
+  "org_id": {
+    "type": "integer",
+    "fill_rate": 0.806,
+    "sample": 1
+  },
+  "owner_id": {
+    "type": "integer",
+    "fill_rate": 1.0,
+    "sample": 14953693
+  },
+  "phones": {
+    "type": "array",
+    "fill_rate": 0.914,
+    "sample": {
+      "label": "work",
+      "value": "0405472446",
+      "primary": true
+    }
+  },
+  "picture_id": {
+    "type": "null",
+    "fill_rate": 0.014,
+    "sample": 1
+  },
+  "update_time": {
+    "type": "datetime",
+    "fill_rate": 1.0,
+    "sample": "2025-02-04T06:06:15Z"
+  },
+  "visible_to": {
+    "type": "integer",
+    "fill_rate": 1.0,
+    "sample": 3
+  }
+}

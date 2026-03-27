@@ -1,0 +1,87 @@
+{
+  "add_time": {
+    "type": "datetime",
+    "fill_rate": 1.0,
+    "sample": "2022-09-05T11:21:21Z"
+  },
+  "address": {
+    "type": "null",
+    "fill_rate": 0.388,
+    "sample": {
+      "value": "Tykistökatu 4 A",
+      "subpremise": null,
+      "street_number": "4a",
+      "route": "Tykistökatu"
+    }
+  },
+  "annual_revenue": {
+    "type": "null",
+    "fill_rate": 0.001,
+    "sample": 4
+  },
+  "custom_fields": {
+    "type": "object",
+    "fill_rate": 1.0,
+    "sample": {
+      "a233077bb653400c6a6fcfebb3851cd4dd039915": null,
+      "931425dd4a675487146add0d454d2927ce41f2fc": null,
+      "8e248eb04d03c62894bc34a39a7a395ae5a007fa": null,
+      "312b2fa7cef1b39558d40e2b64e659ccf8993680": null
+    }
+  },
+  "employee_count": {
+    "type": "null",
+    "fill_rate": 0.0,
+    "sample": null
+  },
+  "id": {
+    "type": "integer",
+    "fill_rate": 1.0,
+    "sample": 1
+  },
+  "industry": {
+    "type": "null",
+    "fill_rate": 0.0,
+    "sample": 17
+  },
+  "is_deleted": {
+    "type": "boolean",
+    "fill_rate": 1.0,
+    "sample": false
+  },
+  "label_ids": {
+    "type": "array",
+    "fill_rate": 0.555,
+    "sample": 46
+  },
+  "linkedin": {
+    "type": "null",
+    "fill_rate": 0.0,
+    "sample": null
+  },
+  "name": {
+    "type": "string",
+    "fill_rate": 1.0,
+    "sample": "QAutomate Oy"
+  },
+  "owner_id": {
+    "type": "integer",
+    "fill_rate": 1.0,
+    "sample": 14953704
+  },
+  "update_time": {
+    "type": "datetime",
+    "fill_rate": 1.0,
+    "sample": "2024-03-04T12:03:51Z"
+  },
+  "visible_to": {
+    "type": "integer",
+    "fill_rate": 1.0,
+    "sample": 3
+  },
+  "website": {
+    "type": "null",
+    "fill_rate": 0.0,
+    "sample": null
+  }
+}

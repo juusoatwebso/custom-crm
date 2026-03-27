@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: #f5f6f8;
+  --color-foreground: #0b0e17;
+  --color-muted: #ecf0ff;
+  --color-muted-foreground: #4a5268;
+  --color-border: #d8dce8;
+  --color-input: #ffffff;
+  --color-ring: #0b0e17;
+  --color-primary: #0b0e17;
+  --color-primary-foreground: #ecf0ff;
+  --color-secondary: #ecf0ff;
+  --color-secondary-foreground: #0b0e17;
+  --color-destructive: #dc2626;
+  --color-destructive-foreground: #ffffff;
+  --color-accent: #ecf0ff;
+  --color-accent-foreground: #0b0e17;
+  --color-card: #ffffff;
+  --color-card-foreground: #0b0e17;
+  --color-popover: #ffffff;
+  --color-popover-foreground: #0b0e17;
+  --color-success: #16a34a;
+  --color-success-foreground: #ffffff;
+  --color-warning: #d97706;
+  --color-warning-foreground: #ffffff;
+  --color-sidebar: #0b0e17;
+  --color-sidebar-foreground: #ecf0ff;
+  --color-sidebar-accent: #1c2235;
+  --color-sidebar-muted: #131624;
+  --radius-sm: 0px;
+  --radius-md: 0px;
+  --radius-lg: 0px;
+  --radius-xl: 0px;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700,900&display=swap');
+}
+
+body {
+  font-family: "Satoshi", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.2;
+  font-size: 14px;
+}
+
+/* Sharp scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #b0b8d0;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8891ac;
+}

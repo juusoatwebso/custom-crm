@@ -1,0 +1,47 @@
+[
+  {
+    "id": 2,
+    "name": "UP-SELL",
+    "order_nr": 1,
+    "is_deleted": false,
+    "is_deal_probability_enabled": true,
+    "add_time": "2023-01-20T15:01:34Z",
+    "update_time": "2023-01-20T15:01:45Z"
+  },
+  {
+    "id": 3,
+    "name": "Oma myynti ",
+    "order_nr": 3,
+    "is_deleted": false,
+    "is_deal_probability_enabled": true,
+    "add_time": "2023-01-20T15:04:59Z",
+    "update_time": "2023-01-20T15:04:59Z"
+  },
+  {
+    "id": 4,
+    "name": "Sellai",
+    "order_nr": 4,
+    "is_deleted": false,
+    "is_deal_probability_enabled": true,
+    "add_time": "2023-03-07T14:29:40Z",
+    "update_time": "2023-03-07T14:29:40Z"
+  },
+  {
+    "id": 6,
+    "name": "Alihankinta yritykset",
+    "order_nr": 6,
+    "is_deleted": false,
+    "is_deal_probability_enabled": true,
+    "add_time": "2023-09-22T07:55:51Z",
+    "update_time": "2023-09-22T07:55:51Z"
+  },
+  {
+    "id": 7,
+    "name": "Alihankinta - Bodyshop - Tarjoukset",
+    "order_nr": 5,
+    "is_deleted": false,
+    "is_deal_probability_enabled": true,
+    "add_time": "2023-11-10T13:19:19Z",
+    "update_time": "2023-11-10T13:19:19Z"
+  }
+]

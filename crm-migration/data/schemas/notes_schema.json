@@ -1,0 +1,115 @@
+{
+  "active_flag": {
+    "type": "boolean",
+    "fill_rate": 1.0,
+    "sample": true
+  },
+  "add_time": {
+    "type": "string",
+    "fill_rate": 1.0,
+    "sample": "2022-09-07 07:03:01"
+  },
+  "content": {
+    "type": "string",
+    "fill_rate": 1.0,
+    "sample": "Palaverin muistiinpanot:<br><ul><li>QAutomatella voi olla tarvetta lyhyen varjoitus ajan devaamiseen. Yleisesti heillä löytyy paljon omia devaajia jotka voivat hoitaa tarpeet.</li><li>QAutomate kuuluu yritys ryppääseen jossa on Q-Factory Oy sekä Codemen Oy</li><ul><li>Codemen on yritys joka tekee ohjelmisto projektien läpimyyntiä sekä henkilöstö vuokrausta.</li><li>Jossain kohtaa Tero mainitsi, että joitain yhteistyö kumppaneita on baltian maissa.</li></ul><li>Codemen verkostoon kuuluville lähetetään kaikki tarjoukset jotka heille saapuvat. #ilmasia-liidejä.</li><li>Codemen ottaa n 10-15 prosenttia provikkaa riippuu siitä kuka tekee myynti työn. Jos codemen ei tee myyntityötä niin provikkaa otetaan vähemmän.<br><br></li><li>Jatkotoimenpiteenä liitytään codemen verkostoon sekä soitetaan Terolle lokakuussa checkuppia varten.<br></li></ul>"
+  },
+  "deal": {
+    "type": "object",
+    "fill_rate": 0.575,
+    "sample": {
+      "title": "QAutomate lead"
+    }
+  },
+  "deal_id": {
+    "type": "integer",
+    "fill_rate": 0.575,
+    "sample": 1
+  },
+  "id": {
+    "type": "integer",
+    "fill_rate": 1.0,
+    "sample": 1
+  },
+  "last_update_user_id": {
+    "type": "null",
+    "fill_rate": 0.004,
+    "sample": 14953704
+  },
+  "lead": {
+    "type": "null",
+    "fill_rate": 0.168,
+    "sample": {
+      "title": "Flashnode Oy deal"
+    }
+  },
+  "lead_id": {
+    "type": "null",
+    "fill_rate": 0.168,
+    "sample": "34531220-cccf-11ee-9619-5df437bd956c"
+  },
+  "org_id": {
+    "type": "integer",
+    "fill_rate": 0.992,
+    "sample": 1
+  },
+  "organization": {
+    "type": "object",
+    "fill_rate": 0.992,
+    "sample": {
+      "name": "QAutomate Oy"
+    }
+  },
+  "person": {
+    "type": "object",
+    "fill_rate": 0.893,
+    "sample": {
+      "name": "Tero Lähteenmäki"
+    }
+  },
+  "person_id": {
+    "type": "integer",
+    "fill_rate": 0.893,
+    "sample": 3
+  },
+  "pinned_to_deal_flag": {
+    "type": "boolean",
+    "fill_rate": 1.0,
+    "sample": false
+  },
+  "pinned_to_lead_flag": {
+    "type": "boolean",
+    "fill_rate": 1.0,
+    "sample": false
+  },
+  "pinned_to_organization_flag": {
+    "type": "boolean",
+    "fill_rate": 1.0,
+    "sample": false
+  },
+  "pinned_to_person_flag": {
+    "type": "boolean",
+    "fill_rate": 1.0,
+    "sample": false
+  },
+  "update_time": {
+    "type": "string",
+    "fill_rate": 1.0,
+    "sample": "2022-09-07 07:03:01"
+  },
+  "user": {
+    "type": "object",
+    "fill_rate": 1.0,
+    "sample": {
+      "email": "pekka@webso.fi",
+      "name": "Pekka Mattinen",
+      "icon_url": null,
+      "is_you": false
+    }
+  },
+  "user_id": {
+    "type": "integer",
+    "fill_rate": 1.0,
+    "sample": 14953704
+  }
+}

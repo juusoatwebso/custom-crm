@@ -1,0 +1,92 @@
+{
+  "add_time": {
+    "type": "datetime",
+    "fill_rate": 1.0,
+    "sample": "2023-06-12T12:37:57Z"
+  },
+  "billing_frequency": {
+    "type": "string",
+    "fill_rate": 1.0,
+    "sample": "one-time"
+  },
+  "billing_frequency_cycles": {
+    "type": "null",
+    "fill_rate": 0.0,
+    "sample": null
+  },
+  "category": {
+    "type": "null",
+    "fill_rate": 0.0,
+    "sample": null
+  },
+  "code": {
+    "type": "string",
+    "fill_rate": 0.071,
+    "sample": "Kamppis koodi"
+  },
+  "custom_fields": {
+    "type": "object",
+    "fill_rate": 0.0,
+    "sample": null
+  },
+  "description": {
+    "type": "string",
+    "fill_rate": 0.0,
+    "sample": null
+  },
+  "id": {
+    "type": "integer",
+    "fill_rate": 1.0,
+    "sample": 1
+  },
+  "is_deleted": {
+    "type": "boolean",
+    "fill_rate": 1.0,
+    "sample": false
+  },
+  "is_linkable": {
+    "type": "boolean",
+    "fill_rate": 1.0,
+    "sample": true
+  },
+  "name": {
+    "type": "string",
+    "fill_rate": 1.0,
+    "sample": "Aleksi - Alihankinta"
+  },
+  "owner_id": {
+    "type": "integer",
+    "fill_rate": 1.0,
+    "sample": 14953704
+  },
+  "prices": {
+    "type": "array",
+    "fill_rate": 1.0,
+    "sample": {
+      "product_id": 1,
+      "price": 0,
+      "currency": "EUR",
+      "cost": 0
+    }
+  },
+  "tax": {
+    "type": "integer",
+    "fill_rate": 1.0,
+    "sample": 0
+  },
+  "unit": {
+    "type": "string",
+    "fill_rate": 0.0,
+    "sample": null
+  },
+  "update_time": {
+    "type": "datetime",
+    "fill_rate": 1.0,
+    "sample": "2023-06-12T12:37:58Z"
+  },
+  "visible_to": {
+    "type": "integer",
+    "fill_rate": 1.0,
+    "sample": 3
+  }
+}

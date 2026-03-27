@@ -1,0 +1,202 @@
+{
+  "deals": [
+    {
+      "key": "27d4af5421c600368b825b433bae74c2691e19a9",
+      "name": "DRIVE",
+      "field_type": "varchar",
+      "mandatory_flag": false,
+      "options": null
+    }
+  ],
+  "persons": [
+    {
+      "key": "4c9293737b1fa9399cb4eeb5c36c5391bc10bddd",
+      "name": "Title",
+      "field_type": "varchar",
+      "mandatory_flag": false,
+      "options": null
+    },
+    {
+      "key": "e629f88dd960275ca6aadfe10ff8608578433f5c",
+      "name": "Titteli",
+      "field_type": "varchar",
+      "mandatory_flag": false,
+      "options": null
+    },
+    {
+      "key": "97806f26559aeeac62c7a93740024a92e21ff909",
+      "name": "Osoite",
+      "field_type": "address",
+      "mandatory_flag": false,
+      "options": null
+    },
+    {
+      "key": "97806f26559aeeac62c7a93740024a92e21ff909_lat",
+      "name": "Latitude of Osoite",
+      "field_type": "double",
+      "mandatory_flag": false,
+      "options": null
+    },
+    {
+      "key": "97806f26559aeeac62c7a93740024a92e21ff909_long",
+      "name": "Longitude of Osoite",
+      "field_type": "double",
+      "mandatory_flag": false,
+      "options": null
+    },
+    {
+      "key": "97806f26559aeeac62c7a93740024a92e21ff909_subpremise",
+      "name": "Apartment/suite no of Osoite",
+      "field_type": "varchar",
+      "mandatory_flag": false,
+      "options": null
+    },
+    {
+      "key": "97806f26559aeeac62c7a93740024a92e21ff909_street_number",
+      "name": "House number of Osoite",
+      "field_type": "varchar",
+      "mandatory_flag": false,
+      "options": null
+    },
+    {
+      "key": "97806f26559aeeac62c7a93740024a92e21ff909_route",
+      "name": "Street/road name of Osoite",
+      "field_type": "varchar",
+      "mandatory_flag": false,
+      "options": null
+    },
+    {
+      "key": "97806f26559aeeac62c7a93740024a92e21ff909_sublocality",
+      "name": "District/sublocality of Osoite",
+      "field_type": "varchar",
+      "mandatory_flag": false,
+      "options": null
+    },
+    {
+      "key": "97806f26559aeeac62c7a93740024a92e21ff909_locality",
+      "name": "City/town/village/locality of Osoite",
+      "field_type": "varchar",
+      "mandatory_flag": false,
+      "options": null
+    },
+    {
+      "key": "97806f26559aeeac62c7a93740024a92e21ff909_admin_area_level_1",
+      "name": "State/county of Osoite",
+      "field_type": "varchar",
+      "mandatory_flag": false,
+      "options": null
+    },
+    {
+      "key": "97806f26559aeeac62c7a93740024a92e21ff909_admin_area_level_2",
+      "name": "Region of Osoite",
+      "field_type": "varchar",
+      "mandatory_flag": false,
+      "options": null
+    },
+    {
+      "key": "97806f26559aeeac62c7a93740024a92e21ff909_country",
+      "name": "Country of Osoite",
+      "field_type": "varchar",
+      "mandatory_flag": false,
+      "options": null
+    },
+    {
+      "key": "97806f26559aeeac62c7a93740024a92e21ff909_postal_code",
+      "name": "ZIP/Postal code of Osoite",
+      "field_type": "varchar",
+      "mandatory_flag": false,
+      "options": null
+    },
+    {
+      "key": "97806f26559aeeac62c7a93740024a92e21ff909_formatted_address",
+      "name": "Full/combined address of Osoite",
+      "field_type": "varchar",
+      "mandatory_flag": false,
+      "options": null
+    }
+  ],
+  "organizations": [
+    {
+      "key": "a233077bb653400c6a6fcfebb3851cd4dd039915",
+      "name": "Virallinen nimi",
+      "field_type": "varchar",
+      "mandatory_flag": false,
+      "options": null
+    },
+    {
+      "key": "931425dd4a675487146add0d454d2927ce41f2fc",
+      "name": "Y-tunnus",
+      "field_type": "varchar",
+      "mandatory_flag": false,
+      "options": null
+    },
+    {
+      "key": "8e248eb04d03c62894bc34a39a7a395ae5a007fa",
+      "name": "Henkilökuntaluokka",
+      "field_type": "varchar",
+      "mandatory_flag": false,
+      "options": null
+    },
+    {
+      "key": "312b2fa7cef1b39558d40e2b64e659ccf8993680",
+      "name": "Liikevaihtoluokka",
+      "field_type": "varchar",
+      "mandatory_flag": false,
+      "options": null
+    },
+    {
+      "key": "af0ff61c2117c518fd67862bca60dc006cf24eb5",
+      "name": "Perustettu",
+      "field_type": "date",
+      "mandatory_flag": false,
+      "options": null
+    },
+    {
+      "key": "8c93d48db9e4713a692d2193a3041ceeaeb79aee",
+      "name": "WWW-osoite",
+      "field_type": "varchar",
+      "mandatory_flag": false,
+      "options": null
+    },
+    {
+      "key": "b5d9fd1785600dc630e14fdcc75888d150f03faf",
+      "name": "Puhelin",
+      "field_type": "phone",
+      "mandatory_flag": false,
+      "options": null
+    },
+    {
+      "key": "54fb878d1bed7f4ece48ca37be3d9102672e0c4e",
+      "name": "Päätoimiala (TOL 2008)",
+      "field_type": "varchar",
+      "mandatory_flag": false,
+      "options": null
+    },
+    {
+      "key": "d0ddd72ec2c009bd6d74ff88f3fbb1831bcf6125",
+      "name": "Päätoimiala (Profinder)",
+      "field_type": "varchar",
+      "mandatory_flag": false,
+      "options": null
+    },
+    {
+      "key": "19396b4979bfbc4d1dff20bd4e18934709d069ea",
+      "name": "Markkinointinimi",
+      "field_type": "varchar",
+      "mandatory_flag": false,
+      "options": null
+    }
+  ],
+  "leads": [
+    {
+      "key": "27d4af5421c600368b825b433bae74c2691e19a9",
+      "name": "DRIVE",
+      "field_type": "varchar",
+      "mandatory_flag": false,
+      "options": null
+    }
+  ],
+  "products": [],
+  "activities": [],
+  "notes": []
+}

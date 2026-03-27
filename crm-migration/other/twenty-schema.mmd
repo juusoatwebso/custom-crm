@@ -1,0 +1,75 @@
+erDiagram
+
+    COMPANY {
+        uuid id PK
+        string name
+        string domainNamePrimaryLinkUrl
+        string addressAddressStreet1
+        string linkedinLinkPrimaryLinkUrl
+        datetime createdAt
+    }
+
+    PERSON {
+        uuid id PK
+        string nameFirstName
+        string nameLastName
+        string emailsPrimaryEmail
+        string phonesPrimaryPhoneNumber
+        string jobTitle
+        string city
+        uuid companyId FK
+    }
+
+    OPPORTUNITY {
+        uuid id PK
+        string name
+        bigint amountAmountMicros
+        string amountCurrencyCode
+        date closeDate
+        enum stage
+        uuid companyId FK
+        uuid pointOfContactId FK
+    }
+
+    NOTE {
+        uuid id PK
+        string title
+        text bodyV2Markdown
+        datetime createdAt
+    }
+
+    NOTE_TARGET {
+        uuid id PK
+        uuid noteId FK
+        uuid targetCompanyId FK
+        uuid targetPersonId FK
+        uuid targetOpportunityId FK
+    }
+
+    TASK {
+        uuid id PK
+        string title
+        text bodyV2Markdown
+        datetime dueAt
+        enum status
+    }
+
+    TASK_TARGET {
+        uuid id PK
+        uuid taskId FK
+        uuid targetCompanyId FK
+        uuid targetPersonId FK
+        uuid targetOpportunityId FK
+    }
+
+    COMPANY      ||--o{ PERSON       : "employs"
+    COMPANY      ||--o{ OPPORTUNITY  : "has"
+    PERSON       ||--o{ OPPORTUNITY  : "pointOfContact"
+    NOTE         ||--o{ NOTE_TARGET  : "linked via"
+    TASK         ||--o{ TASK_TARGET  : "linked via"
+    NOTE_TARGET  }o--|| COMPANY      : "targets"
+    NOTE_TARGET  }o--|| PERSON       : "targets"
+    NOTE_TARGET  }o--|| OPPORTUNITY  : "targets"
+    TASK_TARGET  }o--|| COMPANY      : "targets"
+    TASK_TARGET  }o--|| PERSON       : "targets"
+    TASK_TARGET  }o--|| OPPORTUNITY  : "targets"

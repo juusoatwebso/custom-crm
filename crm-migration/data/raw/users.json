@@ -1,0 +1,375 @@
+[
+  {
+    "id": 14953693,
+    "name": "Aleksi Puttonen",
+    "email": "aleksi@webso.fi",
+    "lang": 1,
+    "locale": "fi_FI",
+    "timezone_name": "Europe/Helsinki",
+    "timezone_offset": "+02:00",
+    "default_currency": "EUR",
+    "icon_url": null,
+    "active_flag": false,
+    "is_deleted": false,
+    "is_admin": 1,
+    "role_id": 1,
+    "created": "2022-09-05 10:39:57",
+    "has_created_company": true,
+    "is_you": false,
+    "access": [
+      {
+        "app": "sales",
+        "admin": true,
+        "permission_set_id": "165bf660-2d07-11ed-9fe1-b7b501b9e9a3"
+      },
+      {
+        "app": "global",
+        "admin": true,
+        "permission_set_id": "1664f710-2d07-11ed-9fe1-b7b501b9e9a3"
+      },
+      {
+        "app": "account_settings",
+        "admin": true,
+        "permission_set_id": "166ff390-2d07-11ed-9fe1-b7b501b9e9a3"
+      }
+    ],
+    "modified": "2023-01-19 10:07:28",
+    "last_login": "2023-01-19 10:07:28"
+  },
+  {
+    "id": 23011193,
+    "name": "Buukkarit",
+    "email": "myynti@webso.fi",
+    "lang": 1,
+    "locale": "en_US",
+    "timezone_name": "Europe/Helsinki",
+    "timezone_offset": "+02:00",
+    "default_currency": "EUR",
+    "icon_url": null,
+    "active_flag": true,
+    "is_deleted": false,
+    "is_admin": 0,
+    "role_id": 1,
+    "created": "2025-01-13 12:51:40",
+    "has_created_company": false,
+    "is_you": false,
+    "access": [
+      {
+        "app": "sales",
+        "admin": false,
+        "permission_set_id": "165f2ab0-2d07-11ed-9fe1-b7b501b9e9a3"
+      },
+      {
+        "app": "global",
+        "admin": false,
+        "permission_set_id": "16678f20-2d07-11ed-9fe1-b7b501b9e9a3"
+      }
+    ],
+    "modified": "2026-03-12 06:41:05",
+    "last_login": "2026-03-12 06:41:05"
+  },
+  {
+    "id": 21113836,
+    "name": "El Dictator",
+    "email": "mikko.mattinen@webso.fi",
+    "lang": 1,
+    "locale": "en_US",
+    "timezone_name": "Europe/Helsinki",
+    "timezone_offset": "+02:00",
+    "default_currency": "EUR",
+    "icon_url": null,
+    "active_flag": false,
+    "is_deleted": false,
+    "is_admin": 0,
+    "role_id": 1,
+    "created": "2024-05-13 09:55:49",
+    "has_created_company": false,
+    "is_you": false,
+    "access": [
+      {
+        "app": "sales",
+        "admin": false,
+        "permission_set_id": "165f2ab0-2d07-11ed-9fe1-b7b501b9e9a3"
+      },
+      {
+        "app": "global",
+        "admin": false,
+        "permission_set_id": "16678f20-2d07-11ed-9fe1-b7b501b9e9a3"
+      }
+    ],
+    "modified": "2024-05-13 14:01:52",
+    "last_login": "2024-05-13 14:01:52"
+  },
+  {
+    "id": 20319999,
+    "name": "Jimi Hiltunen",
+    "email": "jimi@webso.fi",
+    "lang": 1,
+    "locale": "en_US",
+    "timezone_name": "Europe/Helsinki",
+    "timezone_offset": "+02:00",
+    "default_currency": "EUR",
+    "icon_url": null,
+    "active_flag": false,
+    "is_deleted": false,
+    "is_admin": 1,
+    "role_id": 1,
+    "created": "2024-03-04 06:36:38",
+    "has_created_company": false,
+    "is_you": false,
+    "access": [
+      {
+        "app": "sales",
+        "admin": true,
+        "permission_set_id": "165bf660-2d07-11ed-9fe1-b7b501b9e9a3"
+      },
+      {
+        "app": "global",
+        "admin": true,
+        "permission_set_id": "1664f710-2d07-11ed-9fe1-b7b501b9e9a3"
+      }
+    ],
+    "modified": "2024-07-17 13:02:33",
+    "last_login": "2024-07-17 13:02:33"
+  },
+  {
+    "id": 16135335,
+    "name": "Juho",
+    "email": "juho@webso.fi",
+    "lang": 1,
+    "locale": "fi_FI",
+    "timezone_name": "Europe/Helsinki",
+    "timezone_offset": "+02:00",
+    "default_currency": "EUR",
+    "icon_url": null,
+    "active_flag": false,
+    "is_deleted": false,
+    "is_admin": 1,
+    "role_id": 1,
+    "created": "2023-02-27 14:58:25",
+    "has_created_company": false,
+    "is_you": false,
+    "access": [
+      {
+        "app": "sales",
+        "admin": true,
+        "permission_set_id": "165bf660-2d07-11ed-9fe1-b7b501b9e9a3"
+      },
+      {
+        "app": "global",
+        "admin": true,
+        "permission_set_id": "1664f710-2d07-11ed-9fe1-b7b501b9e9a3"
+      }
+    ],
+    "modified": "2023-05-30 06:17:11",
+    "last_login": "2023-05-30 06:17:11"
+  },
+  {
+    "id": 30071928,
+    "name": "Juuso Käyhkö",
+    "email": "juuso@webso.fi",
+    "lang": 1,
+    "locale": "en_US",
+    "timezone_name": "Europe/Helsinki",
+    "timezone_offset": "+02:00",
+    "default_currency": "EUR",
+    "icon_url": null,
+    "active_flag": true,
+    "is_deleted": false,
+    "is_admin": 1,
+    "role_id": 1,
+    "created": "2026-03-11 08:51:02",
+    "has_created_company": false,
+    "is_you": true,
+    "access": [
+      {
+        "app": "sales",
+        "admin": true,
+        "permission_set_id": "165bf660-2d07-11ed-9fe1-b7b501b9e9a3"
+      },
+      {
+        "app": "global",
+        "admin": true,
+        "permission_set_id": "1664f710-2d07-11ed-9fe1-b7b501b9e9a3"
+      },
+      {
+        "app": "account_settings",
+        "admin": true,
+        "permission_set_id": "166ff390-2d07-11ed-9fe1-b7b501b9e9a3"
+      }
+    ],
+    "phone": null,
+    "modified": "2026-03-13 12:17:40",
+    "last_login": "2026-03-13 12:17:40"
+  },
+  {
+    "id": 14953726,
+    "name": "Matias Nieminen",
+    "email": "matias@webso.fi",
+    "lang": 1,
+    "locale": "fi_FI",
+    "timezone_name": "Europe/Helsinki",
+    "timezone_offset": "+02:00",
+    "default_currency": "EUR",
+    "icon_url": null,
+    "active_flag": false,
+    "is_deleted": false,
+    "is_admin": 0,
+    "role_id": 1,
+    "created": "2022-09-05 10:40:49",
+    "has_created_company": false,
+    "is_you": false,
+    "access": [
+      {
+        "app": "sales",
+        "admin": false,
+        "permission_set_id": "165f2ab0-2d07-11ed-9fe1-b7b501b9e9a3"
+      },
+      {
+        "app": "global",
+        "admin": false,
+        "permission_set_id": "16678f20-2d07-11ed-9fe1-b7b501b9e9a3"
+      }
+    ],
+    "modified": "2022-11-11 08:29:43",
+    "last_login": "2022-11-11 08:29:43"
+  },
+  {
+    "id": 14953704,
+    "name": "Pekka Mattinen",
+    "email": "pekka@webso.fi",
+    "lang": 1,
+    "locale": "en_US",
+    "timezone_name": "Europe/Helsinki",
+    "timezone_offset": "+02:00",
+    "default_currency": "EUR",
+    "icon_url": null,
+    "active_flag": true,
+    "is_deleted": false,
+    "is_admin": 1,
+    "role_id": 1,
+    "created": "2022-09-05 10:40:48",
+    "has_created_company": false,
+    "is_you": false,
+    "access": [
+      {
+        "app": "sales",
+        "admin": true,
+        "permission_set_id": "165bf660-2d07-11ed-9fe1-b7b501b9e9a3"
+      },
+      {
+        "app": "global",
+        "admin": true,
+        "permission_set_id": "1664f710-2d07-11ed-9fe1-b7b501b9e9a3"
+      },
+      {
+        "app": "account_settings",
+        "admin": true,
+        "permission_set_id": "166ff390-2d07-11ed-9fe1-b7b501b9e9a3"
+      }
+    ],
+    "modified": "2026-03-16 08:19:07",
+    "last_login": "2026-03-16 08:19:07"
+  },
+  {
+    "id": 14953715,
+    "name": "Roope Lassila",
+    "email": "roope@webso.fi",
+    "lang": 1,
+    "locale": "fi_FI",
+    "timezone_name": "Europe/Helsinki",
+    "timezone_offset": "+02:00",
+    "default_currency": "EUR",
+    "icon_url": null,
+    "active_flag": false,
+    "is_deleted": false,
+    "is_admin": 1,
+    "role_id": 1,
+    "created": "2022-09-05 10:40:49",
+    "has_created_company": false,
+    "is_you": false,
+    "access": [
+      {
+        "app": "sales",
+        "admin": true,
+        "permission_set_id": "165bf660-2d07-11ed-9fe1-b7b501b9e9a3"
+      },
+      {
+        "app": "global",
+        "admin": true,
+        "permission_set_id": "1664f710-2d07-11ed-9fe1-b7b501b9e9a3"
+      },
+      {
+        "app": "account_settings",
+        "admin": true,
+        "permission_set_id": "166ff390-2d07-11ed-9fe1-b7b501b9e9a3"
+      }
+    ],
+    "modified": "2026-01-24 13:07:30",
+    "last_login": "2026-01-24 13:07:30"
+  },
+  {
+    "id": 22319227,
+    "name": "Sampo Puheloinen",
+    "email": "sampo@webso.fi",
+    "lang": 1,
+    "locale": "en_US",
+    "timezone_name": "Europe/Helsinki",
+    "timezone_offset": "+02:00",
+    "default_currency": "EUR",
+    "icon_url": null,
+    "active_flag": false,
+    "is_deleted": false,
+    "is_admin": 1,
+    "role_id": 1,
+    "created": "2024-10-14 04:40:53",
+    "has_created_company": false,
+    "is_you": false,
+    "access": [
+      {
+        "app": "sales",
+        "admin": true,
+        "permission_set_id": "165bf660-2d07-11ed-9fe1-b7b501b9e9a3"
+      },
+      {
+        "app": "global",
+        "admin": true,
+        "permission_set_id": "1664f710-2d07-11ed-9fe1-b7b501b9e9a3"
+      }
+    ],
+    "modified": "2025-02-03 12:45:08",
+    "last_login": "2025-02-03 12:45:08"
+  },
+  {
+    "id": 17287783,
+    "name": "Sauli",
+    "email": "sauli@webso.fi",
+    "lang": 1,
+    "locale": "en_US",
+    "timezone_name": "Europe/Helsinki",
+    "timezone_offset": "+02:00",
+    "default_currency": "EUR",
+    "icon_url": null,
+    "active_flag": false,
+    "is_deleted": false,
+    "is_admin": 1,
+    "role_id": 1,
+    "created": "2023-05-29 08:33:27",
+    "has_created_company": false,
+    "is_you": false,
+    "access": [
+      {
+        "app": "sales",
+        "admin": true,
+        "permission_set_id": "165bf660-2d07-11ed-9fe1-b7b501b9e9a3"
+      },
+      {
+        "app": "global",
+        "admin": true,
+        "permission_set_id": "1664f710-2d07-11ed-9fe1-b7b501b9e9a3"
+      }
+    ],
+    "modified": "2023-08-31 10:23:40",
+    "last_login": "2023-08-31 10:23:40"
+  }
+]

@@ -1,0 +1,87 @@
+erDiagram
+
+    PIPELINE {
+        int id PK
+        string name
+    }
+
+    STAGE {
+        int id PK
+        string name
+        int pipeline_id FK
+    }
+
+    ORGANIZATION {
+        int id PK
+        string name
+        string address
+        string website
+        string domain_name
+        string linkedin
+    }
+
+    PERSON {
+        int id PK
+        string first_name
+        string last_name
+        string email
+        string phone
+        string title
+        string city
+        int org_id FK
+    }
+
+    DEAL {
+        int id PK
+        string title
+        float value
+        string currency
+        date expected_close_date
+        string status
+        int stage_id FK
+        int org_id FK
+        int person_id FK
+    }
+
+    LEAD {
+        uuid id PK
+        string title
+        float value
+        int organization_id FK
+        int person_id FK
+    }
+
+    NOTE {
+        int id PK
+        string content
+        datetime add_time
+        int deal_id FK
+        int org_id FK
+        int person_id FK
+    }
+
+    ACTIVITY {
+        int id PK
+        string subject
+        string type
+        string note
+        bool done
+        date due_date
+        int deal_id FK
+        int org_id FK
+        int person_id FK
+    }
+
+    PIPELINE      ||--o{ STAGE        : "has"
+    STAGE         ||--o{ DEAL         : "categorises"
+    ORGANIZATION  ||--o{ PERSON       : "employs"
+    ORGANIZATION  ||--o{ DEAL         : "involved in"
+    ORGANIZATION  ||--o{ LEAD         : "involved in"
+    ORGANIZATION  ||--o{ NOTE         : "has"
+    ORGANIZATION  ||--o{ ACTIVITY     : "has"
+    PERSON        ||--o{ DEAL         : "contact on"
+    PERSON        ||--o{ LEAD         : "contact on"
+    PERSON        ||--o{ NOTE         : "has"
+    PERSON        ||--o{ ACTIVITY     : "has"
+    DEAL          ||--o{ NOTE         : "has"
+    DEAL          ||--o{ ACTIVITY     : "has"

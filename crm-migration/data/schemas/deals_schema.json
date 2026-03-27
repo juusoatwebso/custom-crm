@@ -1,0 +1,184 @@
+{
+  "acv": {
+    "type": "null",
+    "fill_rate": 0.046,
+    "sample": 105000.0
+  },
+  "add_time": {
+    "type": "datetime",
+    "fill_rate": 1.0,
+    "sample": "2022-09-05T11:29:01Z"
+  },
+  "archive_time": {
+    "type": "null",
+    "fill_rate": 0.0,
+    "sample": null
+  },
+  "arr": {
+    "type": "null",
+    "fill_rate": 0.046,
+    "sample": 0.0
+  },
+  "channel": {
+    "type": "null",
+    "fill_rate": 0.029,
+    "sample": 59
+  },
+  "channel_id": {
+    "type": "null",
+    "fill_rate": 0.027,
+    "sample": "Zapier"
+  },
+  "close_time": {
+    "type": "null",
+    "fill_rate": 0.321,
+    "sample": "2022-09-11T14:43:57Z"
+  },
+  "creator_user_id": {
+    "type": "integer",
+    "fill_rate": 1.0,
+    "sample": 14953704
+  },
+  "currency": {
+    "type": "string",
+    "fill_rate": 1.0,
+    "sample": "EUR"
+  },
+  "custom_fields": {
+    "type": "object",
+    "fill_rate": 1.0,
+    "sample": {
+      "27d4af5421c600368b825b433bae74c2691e19a9": null
+    }
+  },
+  "expected_close_date": {
+    "type": "null",
+    "fill_rate": 0.048,
+    "sample": "2022-09-30"
+  },
+  "id": {
+    "type": "integer",
+    "fill_rate": 1.0,
+    "sample": 1
+  },
+  "is_archived": {
+    "type": "boolean",
+    "fill_rate": 1.0,
+    "sample": false
+  },
+  "is_deleted": {
+    "type": "boolean",
+    "fill_rate": 1.0,
+    "sample": false
+  },
+  "label_ids": {
+    "type": "array",
+    "fill_rate": 0.145,
+    "sample": 22
+  },
+  "local_close_date": {
+    "type": "null",
+    "fill_rate": 0.097,
+    "sample": "2024-02-19"
+  },
+  "local_lost_date": {
+    "type": "null",
+    "fill_rate": 0.064,
+    "sample": "2024-02-19"
+  },
+  "local_won_date": {
+    "type": "null",
+    "fill_rate": 0.033,
+    "sample": "2024-09-29"
+  },
+  "lost_reason": {
+    "type": "null",
+    "fill_rate": 0.259,
+    "sample": "ei tarvetta webson koodakselle"
+  },
+  "lost_time": {
+    "type": "null",
+    "fill_rate": 0.259,
+    "sample": "2022-09-11T14:43:57Z"
+  },
+  "mrr": {
+    "type": "null",
+    "fill_rate": 0.046,
+    "sample": 0.0
+  },
+  "org_id": {
+    "type": "integer",
+    "fill_rate": 1.0,
+    "sample": 1
+  },
+  "origin": {
+    "type": "string",
+    "fill_rate": 1.0,
+    "sample": "ManuallyCreated"
+  },
+  "origin_id": {
+    "type": "null",
+    "fill_rate": 0.029,
+    "sample": "321"
+  },
+  "owner_id": {
+    "type": "integer",
+    "fill_rate": 1.0,
+    "sample": 14953704
+  },
+  "person_id": {
+    "type": "integer",
+    "fill_rate": 0.954,
+    "sample": 3
+  },
+  "pipeline_id": {
+    "type": "integer",
+    "fill_rate": 1.0,
+    "sample": 3
+  },
+  "probability": {
+    "type": "null",
+    "fill_rate": 0.062,
+    "sample": 60
+  },
+  "stage_change_time": {
+    "type": "datetime",
+    "fill_rate": 0.781,
+    "sample": "2023-11-10T13:15:19Z"
+  },
+  "stage_id": {
+    "type": "integer",
+    "fill_rate": 1.0,
+    "sample": 10
+  },
+  "status": {
+    "type": "string",
+    "fill_rate": 1.0,
+    "sample": "lost"
+  },
+  "title": {
+    "type": "string",
+    "fill_rate": 1.0,
+    "sample": "QAutomate lead"
+  },
+  "update_time": {
+    "type": "datetime",
+    "fill_rate": 1.0,
+    "sample": "2023-11-10T13:15:19Z"
+  },
+  "value": {
+    "type": "float",
+    "fill_rate": 1.0,
+    "sample": 0.0
+  },
+  "visible_to": {
+    "type": "integer",
+    "fill_rate": 1.0,
+    "sample": 3
+  },
+  "won_time": {
+    "type": "null",
+    "fill_rate": 0.062,
+    "sample": "2022-12-12T13:58:23Z"
+  }
+}

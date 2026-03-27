@@ -1,0 +1,37 @@
+{
+  "add_time": {
+    "type": "datetime",
+    "fill_rate": 1.0,
+    "sample": "2023-01-20T15:01:34Z"
+  },
+  "id": {
+    "type": "integer",
+    "fill_rate": 1.0,
+    "sample": 2
+  },
+  "is_deal_probability_enabled": {
+    "type": "boolean",
+    "fill_rate": 1.0,
+    "sample": true
+  },
+  "is_deleted": {
+    "type": "boolean",
+    "fill_rate": 1.0,
+    "sample": false
+  },
+  "name": {
+    "type": "string",
+    "fill_rate": 1.0,
+    "sample": "UP-SELL"
+  },
+  "order_nr": {
+    "type": "integer",
+    "fill_rate": 1.0,
+    "sample": 1
+  },
+  "update_time": {
+    "type": "datetime",
+    "fill_rate": 1.0,
+    "sample": "2023-01-20T15:01:45Z"
+  }
+}

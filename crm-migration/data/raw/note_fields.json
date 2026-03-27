@@ -1,0 +1,277 @@
+[
+  {
+    "id": 1,
+    "key": "id",
+    "name": "ID",
+    "order_nr": 1,
+    "field_type": "int",
+    "json_column_flag": false,
+    "add_time": "1970-01-01 00:00:00",
+    "update_time": null,
+    "last_updated_by_user_id": null,
+    "edit_flag": false,
+    "searchable_flag": false,
+    "mandatory_flag": true,
+    "active_flag": true
+  },
+  {
+    "id": 2,
+    "key": "content",
+    "name": "Content",
+    "order_nr": 2,
+    "field_type": "text",
+    "json_column_flag": false,
+    "add_time": "1970-01-01 00:00:00",
+    "update_time": null,
+    "last_updated_by_user_id": null,
+    "edit_flag": false,
+    "searchable_flag": false,
+    "mandatory_flag": true,
+    "active_flag": true
+  },
+  {
+    "id": 3,
+    "key": "org_id",
+    "name": "Organization",
+    "order_nr": 3,
+    "field_type": "org",
+    "json_column_flag": false,
+    "add_time": "1970-01-01 00:00:00",
+    "update_time": null,
+    "last_updated_by_user_id": null,
+    "edit_flag": false,
+    "searchable_flag": false,
+    "mandatory_flag": true,
+    "active_flag": true
+  },
+  {
+    "id": 4,
+    "key": "person_id",
+    "name": "Contact person",
+    "order_nr": 4,
+    "field_type": "people",
+    "json_column_flag": false,
+    "add_time": "1970-01-01 00:00:00",
+    "update_time": null,
+    "last_updated_by_user_id": null,
+    "edit_flag": false,
+    "searchable_flag": false,
+    "mandatory_flag": true,
+    "active_flag": true
+  },
+  {
+    "id": 5,
+    "key": "deal_id",
+    "name": "Deal title",
+    "order_nr": 5,
+    "field_type": "deal",
+    "json_column_flag": false,
+    "add_time": "1970-01-01 00:00:00",
+    "update_time": null,
+    "last_updated_by_user_id": null,
+    "edit_flag": false,
+    "searchable_flag": false,
+    "mandatory_flag": true,
+    "active_flag": true
+  },
+  {
+    "id": 6,
+    "key": "add_time",
+    "name": "Add time",
+    "order_nr": 6,
+    "field_type": "date",
+    "json_column_flag": false,
+    "add_time": "1970-01-01 00:00:00",
+    "update_time": null,
+    "last_updated_by_user_id": null,
+    "edit_flag": false,
+    "searchable_flag": false,
+    "mandatory_flag": true,
+    "active_flag": true
+  },
+  {
+    "id": 7,
+    "key": "update_time",
+    "name": "Update time",
+    "order_nr": 7,
+    "field_type": "date",
+    "json_column_flag": false,
+    "add_time": "1970-01-01 00:00:00",
+    "update_time": null,
+    "last_updated_by_user_id": null,
+    "edit_flag": false,
+    "searchable_flag": false,
+    "mandatory_flag": true,
+    "active_flag": true
+  },
+  {
+    "id": 8,
+    "key": "user_id",
+    "name": "User",
+    "order_nr": 8,
+    "field_type": "user",
+    "json_column_flag": false,
+    "add_time": "1970-01-01 00:00:00",
+    "update_time": null,
+    "last_updated_by_user_id": null,
+    "edit_flag": false,
+    "searchable_flag": false,
+    "mandatory_flag": true,
+    "active_flag": true
+  },
+  {
+    "id": 9,
+    "key": "pinned_to_deal_flag",
+    "name": "Note is pinned to deal",
+    "order_nr": 9,
+    "field_type": "enum",
+    "json_column_flag": false,
+    "add_time": "1970-01-01 00:00:00",
+    "update_time": null,
+    "last_updated_by_user_id": null,
+    "edit_flag": false,
+    "searchable_flag": false,
+    "mandatory_flag": true,
+    "active_flag": true,
+    "options": [
+      {
+        "id": 1,
+        "label": "Yes"
+      },
+      {
+        "id": 0,
+        "label": "No"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "key": "pinned_to_organization_flag",
+    "name": "Note is pinned to organization",
+    "order_nr": 10,
+    "field_type": "enum",
+    "json_column_flag": false,
+    "add_time": "1970-01-01 00:00:00",
+    "update_time": null,
+    "last_updated_by_user_id": null,
+    "edit_flag": false,
+    "searchable_flag": false,
+    "mandatory_flag": true,
+    "active_flag": true,
+    "options": [
+      {
+        "id": 1,
+        "label": "Yes"
+      },
+      {
+        "id": 0,
+        "label": "No"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "key": "pinned_to_person_flag",
+    "name": "Note is pinned to person",
+    "order_nr": 11,
+    "field_type": "enum",
+    "json_column_flag": false,
+    "add_time": "1970-01-01 00:00:00",
+    "update_time": null,
+    "last_updated_by_user_id": null,
+    "edit_flag": false,
+    "searchable_flag": false,
+    "mandatory_flag": true,
+    "active_flag": true,
+    "options": [
+      {
+        "id": 1,
+        "label": "Yes"
+      },
+      {
+        "id": 0,
+        "label": "No"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "key": "lead_id",
+    "name": "Lead",
+    "order_nr": 12,
+    "field_type": "lead",
+    "json_column_flag": false,
+    "add_time": "1970-01-01 00:00:00",
+    "update_time": null,
+    "last_updated_by_user_id": null,
+    "edit_flag": false,
+    "searchable_flag": false,
+    "mandatory_flag": true,
+    "active_flag": true
+  },
+  {
+    "id": 13,
+    "key": "pinned_to_lead_flag",
+    "name": "Note is pinned to lead",
+    "order_nr": 13,
+    "field_type": "enum",
+    "json_column_flag": false,
+    "add_time": "1970-01-01 00:00:00",
+    "update_time": null,
+    "last_updated_by_user_id": null,
+    "edit_flag": false,
+    "searchable_flag": false,
+    "mandatory_flag": true,
+    "active_flag": true,
+    "options": [
+      {
+        "id": 1,
+        "label": "Yes"
+      },
+      {
+        "id": 0,
+        "label": "No"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "key": "project_id",
+    "name": "Project",
+    "order_nr": 14,
+    "field_type": "project",
+    "json_column_flag": false,
+    "add_time": "1970-01-01 00:00:00",
+    "update_time": null,
+    "last_updated_by_user_id": null,
+    "edit_flag": false,
+    "searchable_flag": false,
+    "mandatory_flag": true,
+    "active_flag": true
+  },
+  {
+    "id": 15,
+    "key": "pinned_to_project_flag",
+    "name": "Note is pinned to project",
+    "order_nr": 15,
+    "field_type": "enum",
+    "json_column_flag": false,
+    "add_time": "1970-01-01 00:00:00",
+    "update_time": null,
+    "last_updated_by_user_id": null,
+    "edit_flag": false,
+    "searchable_flag": false,
+    "mandatory_flag": true,
+    "active_flag": true,
+    "options": [
+      {
+        "id": 1,
+        "label": "Yes"
+      },
+      {
+        "id": 0,
+        "label": "No"
+      }
+    ]
+  }
+]

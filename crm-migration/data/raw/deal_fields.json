@@ -1,0 +1,1558 @@
+[
+  {
+    "id": 12477,
+    "key": "id",
+    "name": "ID",
+    "group_id": null,
+    "order_nr": 0,
+    "field_type": "int",
+    "json_column_flag": false,
+    "add_time": "2022-09-05 07:00:46",
+    "update_time": "2025-07-04 09:29:12",
+    "last_updated_by_user_id": null,
+    "edit_flag": false,
+    "details_visible_flag": false,
+    "add_visible_flag": false,
+    "important_flag": false,
+    "bulk_edit_allowed": false,
+    "filtering_allowed": true,
+    "sortable_flag": true,
+    "mandatory_flag": true,
+    "searchable_flag": false,
+    "description": null,
+    "created_by_user_id": null,
+    "active_flag": true,
+    "projects_detail_visible_flag": false,
+    "show_in_pipelines": {
+      "show_in_all": true
+    }
+  },
+  {
+    "id": 12453,
+    "key": "title",
+    "name": "Title",
+    "group_id": null,
+    "order_nr": 0,
+    "field_type": "varchar",
+    "json_column_flag": false,
+    "add_time": "2022-09-05 07:00:46",
+    "update_time": "2025-07-04 09:29:12",
+    "last_updated_by_user_id": 0,
+    "edit_flag": false,
+    "details_visible_flag": false,
+    "add_visible_flag": true,
+    "important_flag": false,
+    "bulk_edit_allowed": true,
+    "filtering_allowed": true,
+    "sortable_flag": true,
+    "mandatory_flag": true,
+    "searchable_flag": false,
+    "description": null,
+    "created_by_user_id": null,
+    "active_flag": true,
+    "projects_detail_visible_flag": false,
+    "show_in_pipelines": {
+      "show_in_all": true
+    },
+    "use_field": "id",
+    "link": "/deal/"
+  },
+  {
+    "id": 12454,
+    "key": "creator_user_id",
+    "name": "Creator",
+    "group_id": null,
+    "order_nr": 0,
+    "field_type": "user",
+    "json_column_flag": false,
+    "add_time": "2022-09-05 07:00:46",
+    "update_time": "2025-07-04 09:29:12",
+    "last_updated_by_user_id": null,
+    "edit_flag": false,
+    "details_visible_flag": false,
+    "add_visible_flag": false,
+    "important_flag": false,
+    "bulk_edit_allowed": false,
+    "filtering_allowed": true,
+    "sortable_flag": true,
+    "mandatory_flag": true,
+    "searchable_flag": false,
+    "description": null,
+    "created_by_user_id": null,
+    "active_flag": true,
+    "projects_detail_visible_flag": false,
+    "show_in_pipelines": {
+      "show_in_all": true
+    }
+  },
+  {
+    "id": 12455,
+    "key": "user_id",
+    "name": "Owner",
+    "group_id": null,
+    "order_nr": 0,
+    "field_type": "user",
+    "json_column_flag": false,
+    "add_time": "2022-09-05 07:00:46",
+    "update_time": "2025-07-04 09:29:12",
+    "last_updated_by_user_id": 0,
+    "edit_flag": false,
+    "details_visible_flag": true,
+    "add_visible_flag": false,
+    "important_flag": false,
+    "bulk_edit_allowed": true,
+    "filtering_allowed": true,
+    "sortable_flag": true,
+    "mandatory_flag": true,
+    "searchable_flag": false,
+    "description": null,
+    "created_by_user_id": null,
+    "active_flag": true,
+    "projects_detail_visible_flag": false,
+    "show_in_pipelines": {
+      "show_in_all": true
+    }
+  },
+  {
+    "id": 12456,
+    "key": "value",
+    "name": "Value",
+    "group_id": 1,
+    "order_nr": 0,
+    "field_type": "monetary",
+    "json_column_flag": false,
+    "add_time": "2022-09-05 07:00:46",
+    "update_time": "2025-07-04 09:29:12",
+    "last_updated_by_user_id": 0,
+    "edit_flag": false,
+    "details_visible_flag": false,
+    "add_visible_flag": true,
+    "important_flag": false,
+    "bulk_edit_allowed": true,
+    "filtering_allowed": true,
+    "sortable_flag": true,
+    "mandatory_flag": false,
+    "searchable_flag": false,
+    "description": null,
+    "created_by_user_id": null,
+    "active_flag": true,
+    "projects_detail_visible_flag": false,
+    "show_in_pipelines": {
+      "show_in_all": true
+    }
+  },
+  {
+    "id": null,
+    "key": "currency",
+    "name": "Currency",
+    "field_type": "varchar",
+    "edit_flag": false,
+    "active_flag": true,
+    "is_subfield": true,
+    "mandatory_flag": false,
+    "parent_id": 12456,
+    "id_suffix": "currency"
+  },
+  {
+    "id": 12457,
+    "key": "weighted_value",
+    "name": "Weighted value",
+    "group_id": null,
+    "order_nr": 0,
+    "field_type": "monetary",
+    "json_column_flag": false,
+    "add_time": "2022-09-05 07:00:46",
+    "update_time": "2025-07-04 09:29:12",
+    "last_updated_by_user_id": null,
+    "edit_flag": false,
+    "details_visible_flag": false,
+    "add_visible_flag": false,
+    "important_flag": false,
+    "bulk_edit_allowed": false,
+    "filtering_allowed": false,
+    "sortable_flag": false,
+    "mandatory_flag": true,
+    "searchable_flag": false,
+    "description": null,
+    "created_by_user_id": null,
+    "active_flag": true,
+    "projects_detail_visible_flag": false,
+    "show_in_pipelines": {
+      "show_in_all": true
+    }
+  },
+  {
+    "id": null,
+    "key": "weighted_value_currency",
+    "name": "Currency of Weighted value",
+    "field_type": "varchar",
+    "edit_flag": false,
+    "active_flag": true,
+    "is_subfield": true,
+    "mandatory_flag": true,
+    "parent_id": 12457,
+    "id_suffix": "currency"
+  },
+  {
+    "id": 12458,
+    "key": "probability",
+    "name": "Probability",
+    "group_id": 1,
+    "order_nr": 0,
+    "field_type": "int",
+    "json_column_flag": false,
+    "add_time": "2022-09-05 07:00:46",
+    "update_time": "2025-07-04 09:29:12",
+    "last_updated_by_user_id": 0,
+    "edit_flag": false,
+    "details_visible_flag": false,
+    "add_visible_flag": true,
+    "important_flag": false,
+    "bulk_edit_allowed": false,
+    "filtering_allowed": true,
+    "sortable_flag": true,
+    "mandatory_flag": false,
+    "searchable_flag": false,
+    "description": null,
+    "created_by_user_id": null,
+    "active_flag": true,
+    "projects_detail_visible_flag": false,
+    "show_in_pipelines": {
+      "show_in_all": true
+    }
+  },
+  {
+    "id": 12459,
+    "key": "org_id",
+    "name": "Organization",
+    "group_id": 1,
+    "order_nr": 0,
+    "field_type": "org",
+    "json_column_flag": false,
+    "add_time": "2022-09-05 07:00:46",
+    "update_time": "2025-07-04 09:29:12",
+    "last_updated_by_user_id": 0,
+    "edit_flag": false,
+    "details_visible_flag": true,
+    "add_visible_flag": true,
+    "important_flag": false,
+    "bulk_edit_allowed": true,
+    "filtering_allowed": true,
+    "sortable_flag": true,
+    "mandatory_flag": {
+      "person_id": "<=0"
+    },
+    "searchable_flag": false,
+    "description": null,
+    "created_by_user_id": null,
+    "active_flag": true,
+    "projects_detail_visible_flag": false,
+    "show_in_pipelines": {
+      "show_in_all": true
+    }
+  },
+  {
+    "id": 12460,
+    "key": "pipeline",
+    "name": "Pipeline",
+    "group_id": null,
+    "order_nr": 0,
+    "field_type": "double",
+    "json_column_flag": false,
+    "add_time": "2022-09-05 07:00:46",
+    "update_time": "2025-07-04 09:29:12",
+    "last_updated_by_user_id": 0,
+    "edit_flag": false,
+    "details_visible_flag": false,
+    "add_visible_flag": true,
+    "important_flag": false,
+    "bulk_edit_allowed": false,
+    "filtering_allowed": true,
+    "sortable_flag": true,
+    "mandatory_flag": true,
+    "searchable_flag": false,
+    "description": null,
+    "created_by_user_id": null,
+    "active_flag": true,
+    "projects_detail_visible_flag": false,
+    "show_in_pipelines": {
+      "show_in_all": true
+    }
+  },
+  {
+    "id": 12461,
+    "key": "person_id",
+    "name": "Contact person",
+    "group_id": 1,
+    "order_nr": 0,
+    "field_type": "people",
+    "json_column_flag": false,
+    "add_time": "2022-09-05 07:00:46",
+    "update_time": "2025-07-04 09:29:12",
+    "last_updated_by_user_id": 0,
+    "edit_flag": false,
+    "details_visible_flag": true,
+    "add_visible_flag": true,
+    "important_flag": false,
+    "bulk_edit_allowed": true,
+    "filtering_allowed": true,
+    "sortable_flag": true,
+    "mandatory_flag": {
+      "org_id": "<=0"
+    },
+    "searchable_flag": false,
+    "description": null,
+    "created_by_user_id": null,
+    "active_flag": true,
+    "projects_detail_visible_flag": false,
+    "show_in_pipelines": {
+      "show_in_all": true
+    }
+  },
+  {
+    "id": 12462,
+    "key": "stage_id",
+    "name": "Stage",
+    "group_id": null,
+    "order_nr": 0,
+    "field_type": "stage",
+    "json_column_flag": false,
+    "add_time": "2022-09-05 07:00:46",
+    "update_time": "2025-07-04 09:29:12",
+    "last_updated_by_user_id": 0,
+    "edit_flag": false,
+    "details_visible_flag": false,
+    "add_visible_flag": true,
+    "important_flag": false,
+    "bulk_edit_allowed": true,
+    "filtering_allowed": true,
+    "sortable_flag": true,
+    "mandatory_flag": true,
+    "searchable_flag": false,
+    "description": null,
+    "created_by_user_id": null,
+    "active_flag": true,
+    "projects_detail_visible_flag": false,
+    "show_in_pipelines": {
+      "show_in_all": true
+    },
+    "use_field": "stage"
+  },
+  {
+    "id": 12463,
+    "key": "label",
+    "name": "Label",
+    "group_id": 1,
+    "order_nr": 0,
+    "field_type": "set",
+    "json_column_flag": false,
+    "add_time": "2022-09-05 07:00:46",
+    "update_time": "2025-08-22 10:00:14",
+    "last_updated_by_user_id": 14953704,
+    "edit_flag": false,
+    "details_visible_flag": true,
+    "add_visible_flag": true,
+    "important_flag": false,
+    "bulk_edit_allowed": true,
+    "filtering_allowed": true,
+    "sortable_flag": true,
+    "mandatory_flag": false,
+    "searchable_flag": false,
+    "description": null,
+    "created_by_user_id": null,
+    "active_flag": true,
+    "projects_detail_visible_flag": true,
+    "show_in_pipelines": {
+      "show_in_all": true,
+      "pipeline_ids": []
+    },
+    "options": [
+      {
+        "id": 23,
+        "label": "Alihankinta",
+        "color": "blue"
+      },
+      {
+        "id": 22,
+        "label": "Micromedia",
+        "color": "yellow"
+      },
+      {
+        "id": 31,
+        "label": "Projekti",
+        "color": "red"
+      },
+      {
+        "id": 41,
+        "label": "Bookkarit",
+        "color": "green"
+      },
+      {
+        "id": 71,
+        "label": "Julkkari",
+        "color": "red"
+      },
+      {
+        "id": 72,
+        "label": "Java",
+        "color": "dark-gray"
+      },
+      {
+        "id": 73,
+        "label": "React",
+        "color": "purple"
+      },
+      {
+        "id": 74,
+        "label": "C#",
+        "color": "pink"
+      },
+      {
+        "id": 75,
+        "label": "Composable commerce",
+        "color": "green"
+      },
+      {
+        "id": 76,
+        "label": "AI Agents",
+        "color": "yellow"
+      },
+      {
+        "id": 77,
+        "label": "PHP",
+        "color": "orange"
+      },
+      {
+        "id": 78,
+        "label": "Microsoft",
+        "color": "orange"
+      },
+      {
+        "id": 79,
+        "label": "kumppani",
+        "color": "red"
+      },
+      {
+        "id": 81,
+        "label": "Hardware",
+        "color": "brown"
+      },
+      {
+        "id": 82,
+        "label": "Embedded development",
+        "color": "pink"
+      },
+      {
+        "id": 83,
+        "label": "Flutter",
+        "color": "dark-gray"
+      },
+      {
+        "id": 84,
+        "label": "azure",
+        "color": "purple"
+      },
+      {
+        "id": 85,
+        "label": "angular",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "id": 12464,
+    "key": "status",
+    "name": "Status",
+    "group_id": null,
+    "order_nr": 0,
+    "field_type": "status",
+    "json_column_flag": false,
+    "add_time": "2022-09-05 07:00:46",
+    "update_time": "2025-07-04 09:29:12",
+    "last_updated_by_user_id": null,
+    "edit_flag": false,
+    "details_visible_flag": false,
+    "add_visible_flag": false,
+    "important_flag": false,
+    "bulk_edit_allowed": true,
+    "filtering_allowed": true,
+    "sortable_flag": true,
+    "mandatory_flag": true,
+    "searchable_flag": false,
+    "description": null,
+    "created_by_user_id": null,
+    "active_flag": true,
+    "projects_detail_visible_flag": false,
+    "show_in_pipelines": {
+      "show_in_all": true
+    },
+    "options": [
+      {
+        "id": "open",
+        "label": "Open"
+      },
+      {
+        "id": "lost",
+        "label": "Lost"
+      },
+      {
+        "id": "won",
+        "label": "Won"
+      },
+      {
+        "id": "deleted",
+        "label": "Deleted"
+      }
+    ]
+  },
+  {
+    "id": 12465,
+    "key": "add_time",
+    "name": "Deal created",
+    "group_id": null,
+    "order_nr": 0,
+    "field_type": "date",
+    "json_column_flag": false,
+    "add_time": "2022-09-05 07:00:46",
+    "update_time": "2025-07-04 09:29:12",
+    "last_updated_by_user_id": null,
+    "edit_flag": false,
+    "details_visible_flag": false,
+    "add_visible_flag": false,
+    "important_flag": false,
+    "bulk_edit_allowed": true,
+    "filtering_allowed": true,
+    "sortable_flag": true,
+    "mandatory_flag": true,
+    "searchable_flag": false,
+    "description": null,
+    "created_by_user_id": null,
+    "active_flag": true,
+    "projects_detail_visible_flag": false,
+    "show_in_pipelines": {
+      "show_in_all": true
+    }
+  },
+  {
+    "id": 12466,
+    "key": "update_time",
+    "name": "Update time",
+    "group_id": null,
+    "order_nr": 0,
+    "field_type": "date",
+    "json_column_flag": false,
+    "add_time": "2022-09-05 07:00:46",
+    "update_time": "2025-07-04 09:29:12",
+    "last_updated_by_user_id": null,
+    "edit_flag": false,
+    "details_visible_flag": false,
+    "add_visible_flag": false,
+    "important_flag": false,
+    "bulk_edit_allowed": false,
+    "filtering_allowed": true,
+    "sortable_flag": true,
+    "mandatory_flag": true,
+    "searchable_flag": false,
+    "description": null,
+    "created_by_user_id": null,
+    "active_flag": true,
+    "projects_detail_visible_flag": false,
+    "show_in_pipelines": {
+      "show_in_all": true
+    }
+  },
+  {
+    "id": 12467,
+    "key": "stage_change_time",
+    "name": "Last stage change",
+    "group_id": null,
+    "order_nr": 0,
+    "field_type": "date",
+    "json_column_flag": false,
+    "add_time": "2022-09-05 07:00:46",
+    "update_time": "2025-07-04 09:29:12",
+    "last_updated_by_user_id": null,
+    "edit_flag": false,
+    "details_visible_flag": false,
+    "add_visible_flag": false,
+    "important_flag": false,
+    "bulk_edit_allowed": false,
+    "filtering_allowed": true,
+    "sortable_flag": true,
+    "mandatory_flag": true,
+    "searchable_flag": false,
+    "description": null,
+    "created_by_user_id": null,
+    "active_flag": true,
+    "projects_detail_visible_flag": false,
+    "show_in_pipelines": {
+      "show_in_all": true
+    }
+  },
+  {
+    "id": 12468,
+    "key": "next_activity_date",
+    "name": "Next activity date",
+    "group_id": null,
+    "order_nr": 0,
+    "field_type": "date",
+    "json_column_flag": false,
+    "add_time": "2022-09-05 07:00:46",
+    "update_time": "2025-07-04 09:29:12",
+    "last_updated_by_user_id": null,
+    "edit_flag": false,
+    "details_visible_flag": false,
+    "add_visible_flag": false,
+    "important_flag": false,
+    "bulk_edit_allowed": false,
+    "filtering_allowed": true,
+    "sortable_flag": true,
+    "mandatory_flag": true,
+    "searchable_flag": false,
+    "description": null,
+    "created_by_user_id": null,
+    "active_flag": true,
+    "projects_detail_visible_flag": false,
+    "show_in_pipelines": {
+      "show_in_all": true
+    }
+  },
+  {
+    "id": 12469,
+    "key": "last_activity_date",
+    "name": "Last activity date",
+    "group_id": null,
+    "order_nr": 0,
+    "field_type": "date",
+    "json_column_flag": false,
+    "add_time": "2022-09-05 07:00:46",
+    "update_time": "2025-07-04 09:29:12",
+    "last_updated_by_user_id": null,
+    "edit_flag": false,
+    "details_visible_flag": false,
+    "add_visible_flag": false,
+    "important_flag": false,
+    "bulk_edit_allowed": false,
+    "filtering_allowed": true,
+    "sortable_flag": true,
+    "mandatory_flag": true,
+    "searchable_flag": false,
+    "description": null,
+    "created_by_user_id": null,
+    "active_flag": true,
+    "projects_detail_visible_flag": false,
+    "show_in_pipelines": {
+      "show_in_all": true
+    }
+  },
+  {
+    "id": 12470,
+    "key": "won_time",
+    "name": "Won time",
+    "group_id": null,
+    "order_nr": 0,
+    "field_type": "date",
+    "json_column_flag": false,
+    "add_time": "2022-09-05 07:00:46",
+    "update_time": "2025-07-04 09:29:12",
+    "last_updated_by_user_id": null,
+    "edit_flag": false,
+    "details_visible_flag": false,
+    "add_visible_flag": false,
+    "important_flag": false,
+    "bulk_edit_allowed": true,
+    "filtering_allowed": true,
+    "sortable_flag": true,
+    "mandatory_flag": {
+      "status": "=won"
+    },
+    "searchable_flag": false,
+    "description": null,
+    "created_by_user_id": null,
+    "active_flag": true,
+    "projects_detail_visible_flag": true,
+    "show_in_pipelines": {
+      "show_in_all": true
+    }
+  },
+  {
+    "id": 12471,
+    "key": "last_incoming_mail_time",
+    "name": "Last email received",
+    "group_id": null,
+    "order_nr": 0,
+    "field_type": "date",
+    "json_column_flag": false,
+    "add_time": "2022-09-05 07:00:46",
+    "update_time": "2025-07-04 09:29:12",
+    "last_updated_by_user_id": null,
+    "edit_flag": false,
+    "details_visible_flag": false,
+    "add_visible_flag": false,
+    "important_flag": false,
+    "bulk_edit_allowed": false,
+    "filtering_allowed": true,
+    "sortable_flag": true,
+    "mandatory_flag": true,
+    "searchable_flag": false,
+    "description": null,
+    "created_by_user_id": null,
+    "active_flag": true,
+    "projects_detail_visible_flag": false,
+    "show_in_pipelines": {
+      "show_in_all": true
+    }
+  },
+  {
+    "id": 12472,
+    "key": "last_outgoing_mail_time",
+    "name": "Last email sent",
+    "group_id": null,
+    "order_nr": 0,
+    "field_type": "date",
+    "json_column_flag": false,
+    "add_time": "2022-09-05 07:00:46",
+    "update_time": "2025-07-04 09:29:12",
+    "last_updated_by_user_id": null,
+    "edit_flag": false,
+    "details_visible_flag": false,
+    "add_visible_flag": false,
+    "important_flag": false,
+    "bulk_edit_allowed": false,
+    "filtering_allowed": true,
+    "sortable_flag": true,
+    "mandatory_flag": true,
+    "searchable_flag": false,
+    "description": null,
+    "created_by_user_id": null,
+    "active_flag": true,
+    "projects_detail_visible_flag": false,
+    "show_in_pipelines": {
+      "show_in_all": true
+    }
+  },
+  {
+    "id": 12473,
+    "key": "lost_time",
+    "name": "Lost time",
+    "group_id": null,
+    "order_nr": 0,
+    "field_type": "date",
+    "json_column_flag": false,
+    "add_time": "2022-09-05 07:00:46",
+    "update_time": "2025-07-04 09:29:12",
+    "last_updated_by_user_id": null,
+    "edit_flag": false,
+    "details_visible_flag": false,
+    "add_visible_flag": false,
+    "important_flag": false,
+    "bulk_edit_allowed": true,
+    "filtering_allowed": true,
+    "sortable_flag": true,
+    "mandatory_flag": {
+      "status": "=lost"
+    },
+    "searchable_flag": false,
+    "description": null,
+    "created_by_user_id": null,
+    "active_flag": true,
+    "projects_detail_visible_flag": false,
+    "show_in_pipelines": {
+      "show_in_all": true
+    }
+  },
+  {
+    "id": 12474,
+    "key": "close_time",
+    "name": "Deal closed on",
+    "group_id": null,
+    "order_nr": 0,
+    "field_type": "date",
+    "json_column_flag": false,
+    "add_time": "2022-09-05 07:00:46",
+    "update_time": "2025-07-04 09:29:12",
+    "last_updated_by_user_id": null,
+    "edit_flag": false,
+    "details_visible_flag": false,
+    "add_visible_flag": false,
+    "important_flag": false,
+    "bulk_edit_allowed": false,
+    "filtering_allowed": true,
+    "sortable_flag": true,
+    "mandatory_flag": true,
+    "searchable_flag": false,
+    "description": null,
+    "created_by_user_id": null,
+    "active_flag": true,
+    "projects_detail_visible_flag": false,
+    "show_in_pipelines": {
+      "show_in_all": true
+    }
+  },
+  {
+    "id": 12475,
+    "key": "lost_reason",
+    "name": "Lost reason",
+    "group_id": null,
+    "order_nr": 0,
+    "field_type": "varchar_options",
+    "json_column_flag": false,
+    "add_time": "2022-09-05 07:00:46",
+    "update_time": "2025-07-04 09:29:12",
+    "last_updated_by_user_id": 16135335,
+    "edit_flag": false,
+    "details_visible_flag": false,
+    "add_visible_flag": false,
+    "important_flag": false,
+    "bulk_edit_allowed": true,
+    "filtering_allowed": true,
+    "sortable_flag": true,
+    "mandatory_flag": {
+      "status": "=lost"
+    },
+    "searchable_flag": false,
+    "description": null,
+    "created_by_user_id": null,
+    "active_flag": true,
+    "projects_detail_visible_flag": false,
+    "show_in_pipelines": {
+      "show_in_all": true
+    },
+    "options": [
+      {
+        "id": 27,
+        "label": "Timing is wrong / No use case"
+      },
+      {
+        "id": 28,
+        "label": "Lost to competitor"
+      },
+      {
+        "id": 29,
+        "label": "Cannot reach contact person"
+      },
+      {
+        "id": 30,
+        "label": "Does not outsource work"
+      }
+    ]
+  },
+  {
+    "id": 12476,
+    "key": "visible_to",
+    "name": "Visible to",
+    "group_id": null,
+    "order_nr": 0,
+    "field_type": "visible_to",
+    "json_column_flag": false,
+    "add_time": "2022-09-05 07:00:46",
+    "update_time": "2025-07-04 09:29:12",
+    "last_updated_by_user_id": 0,
+    "edit_flag": false,
+    "details_visible_flag": true,
+    "add_visible_flag": true,
+    "important_flag": false,
+    "bulk_edit_allowed": true,
+    "filtering_allowed": true,
+    "sortable_flag": true,
+    "mandatory_flag": true,
+    "searchable_flag": false,
+    "description": null,
+    "created_by_user_id": null,
+    "active_flag": true,
+    "projects_detail_visible_flag": false,
+    "show_in_pipelines": {
+      "show_in_all": true
+    },
+    "options": [
+      {
+        "id": 1,
+        "label": "Item owner"
+      },
+      {
+        "id": 3,
+        "label": "All users"
+      }
+    ]
+  },
+  {
+    "id": 12478,
+    "key": "activities_count",
+    "name": "Total activities",
+    "group_id": null,
+    "order_nr": 0,
+    "field_type": "int",
+    "json_column_flag": false,
+    "add_time": "2022-09-05 07:00:46",
+    "update_time": "2025-07-04 09:29:12",
+    "last_updated_by_user_id": null,
+    "edit_flag": false,
+    "details_visible_flag": false,
+    "add_visible_flag": false,
+    "important_flag": false,
+    "bulk_edit_allowed": false,
+    "filtering_allowed": true,
+    "sortable_flag": true,
+    "mandatory_flag": true,
+    "searchable_flag": false,
+    "description": null,
+    "created_by_user_id": null,
+    "active_flag": true,
+    "projects_detail_visible_flag": false,
+    "show_in_pipelines": {
+      "show_in_all": true
+    }
+  },
+  {
+    "id": 12479,
+    "key": "done_activities_count",
+    "name": "Done activities",
+    "group_id": null,
+    "order_nr": 0,
+    "field_type": "int",
+    "json_column_flag": false,
+    "add_time": "2022-09-05 07:00:46",
+    "update_time": "2025-07-04 09:29:12",
+    "last_updated_by_user_id": null,
+    "edit_flag": false,
+    "details_visible_flag": false,
+    "add_visible_flag": false,
+    "important_flag": false,
+    "bulk_edit_allowed": false,
+    "filtering_allowed": true,
+    "sortable_flag": true,
+    "mandatory_flag": true,
+    "searchable_flag": false,
+    "description": null,
+    "created_by_user_id": null,
+    "active_flag": true,
+    "projects_detail_visible_flag": false,
+    "show_in_pipelines": {
+      "show_in_all": true
+    }
+  },
+  {
+    "id": 12480,
+    "key": "undone_activities_count",
+    "name": "Activities to do",
+    "group_id": null,
+    "order_nr": 0,
+    "field_type": "int",
+    "json_column_flag": false,
+    "add_time": "2022-09-05 07:00:46",
+    "update_time": "2025-07-04 09:29:12",
+    "last_updated_by_user_id": null,
+    "edit_flag": false,
+    "details_visible_flag": false,
+    "add_visible_flag": false,
+    "important_flag": false,
+    "bulk_edit_allowed": false,
+    "filtering_allowed": true,
+    "sortable_flag": true,
+    "mandatory_flag": true,
+    "searchable_flag": false,
+    "description": null,
+    "created_by_user_id": null,
+    "active_flag": true,
+    "projects_detail_visible_flag": false,
+    "show_in_pipelines": {
+      "show_in_all": true
+    }
+  },
+  {
+    "id": 12481,
+    "key": "email_messages_count",
+    "name": "Email messages count",
+    "group_id": null,
+    "order_nr": 0,
+    "field_type": "int",
+    "json_column_flag": false,
+    "add_time": "2022-09-05 07:00:46",
+    "update_time": "2025-07-04 09:29:12",
+    "last_updated_by_user_id": null,
+    "edit_flag": false,
+    "details_visible_flag": false,
+    "add_visible_flag": false,
+    "important_flag": false,
+    "bulk_edit_allowed": false,
+    "filtering_allowed": true,
+    "sortable_flag": true,
+    "mandatory_flag": true,
+    "searchable_flag": false,
+    "description": null,
+    "created_by_user_id": null,
+    "active_flag": true,
+    "projects_detail_visible_flag": false,
+    "show_in_pipelines": {
+      "show_in_all": true
+    }
+  },
+  {
+    "id": 12482,
+    "key": "product_quantity",
+    "name": "Product quantity",
+    "group_id": null,
+    "order_nr": 0,
+    "field_type": "double",
+    "json_column_flag": false,
+    "add_time": "2022-09-05 07:00:46",
+    "update_time": "2025-07-04 09:29:12",
+    "last_updated_by_user_id": null,
+    "edit_flag": false,
+    "details_visible_flag": false,
+    "add_visible_flag": false,
+    "important_flag": false,
+    "bulk_edit_allowed": false,
+    "filtering_allowed": false,
+    "sortable_flag": false,
+    "mandatory_flag": true,
+    "searchable_flag": false,
+    "description": null,
+    "created_by_user_id": null,
+    "active_flag": true,
+    "projects_detail_visible_flag": false,
+    "show_in_pipelines": {
+      "show_in_all": true
+    }
+  },
+  {
+    "id": 12483,
+    "key": "product_amount",
+    "name": "Product amount",
+    "group_id": null,
+    "order_nr": 0,
+    "field_type": "double",
+    "json_column_flag": false,
+    "add_time": "2022-09-05 07:00:46",
+    "update_time": "2025-07-04 09:29:12",
+    "last_updated_by_user_id": null,
+    "edit_flag": false,
+    "details_visible_flag": false,
+    "add_visible_flag": false,
+    "important_flag": false,
+    "bulk_edit_allowed": false,
+    "filtering_allowed": false,
+    "sortable_flag": false,
+    "mandatory_flag": true,
+    "searchable_flag": false,
+    "description": null,
+    "created_by_user_id": null,
+    "active_flag": true,
+    "projects_detail_visible_flag": false,
+    "show_in_pipelines": {
+      "show_in_all": true
+    }
+  },
+  {
+    "id": 12484,
+    "key": "expected_close_date",
+    "name": "Expected close date",
+    "group_id": 1,
+    "order_nr": 0,
+    "field_type": "date",
+    "json_column_flag": false,
+    "add_time": "2022-09-05 07:00:46",
+    "update_time": "2025-07-04 09:29:12",
+    "last_updated_by_user_id": 0,
+    "edit_flag": false,
+    "details_visible_flag": true,
+    "add_visible_flag": true,
+    "important_flag": false,
+    "bulk_edit_allowed": true,
+    "filtering_allowed": true,
+    "sortable_flag": true,
+    "mandatory_flag": false,
+    "searchable_flag": false,
+    "description": null,
+    "created_by_user_id": null,
+    "active_flag": true,
+    "projects_detail_visible_flag": false,
+    "show_in_pipelines": {
+      "show_in_all": true
+    }
+  },
+  {
+    "id": 12487,
+    "key": "product_name",
+    "name": "Product name",
+    "group_id": null,
+    "order_nr": 0,
+    "field_type": "varchar",
+    "json_column_flag": false,
+    "add_time": "2023-05-27 08:52:31",
+    "update_time": null,
+    "last_updated_by_user_id": null,
+    "edit_flag": false,
+    "details_visible_flag": false,
+    "add_visible_flag": false,
+    "important_flag": false,
+    "bulk_edit_allowed": false,
+    "filtering_allowed": false,
+    "sortable_flag": false,
+    "mandatory_flag": true,
+    "searchable_flag": false,
+    "description": null,
+    "created_by_user_id": null,
+    "active_flag": true,
+    "projects_detail_visible_flag": false,
+    "show_in_pipelines": {
+      "show_in_all": true
+    }
+  },
+  {
+    "id": 12489,
+    "key": "origin",
+    "name": "Source origin",
+    "group_id": null,
+    "order_nr": 0,
+    "field_type": "enum",
+    "json_column_flag": false,
+    "add_time": "2024-05-23 17:20:13",
+    "update_time": "2025-07-04 09:29:12",
+    "last_updated_by_user_id": null,
+    "edit_flag": false,
+    "details_visible_flag": true,
+    "add_visible_flag": false,
+    "important_flag": false,
+    "bulk_edit_allowed": false,
+    "filtering_allowed": true,
+    "sortable_flag": true,
+    "mandatory_flag": true,
+    "searchable_flag": false,
+    "description": null,
+    "created_by_user_id": null,
+    "active_flag": true,
+    "projects_detail_visible_flag": false,
+    "show_in_pipelines": {
+      "show_in_all": true
+    },
+    "options": [
+      {
+        "id": "ManuallyCreated",
+        "label": "Manually created"
+      },
+      {
+        "id": "Import",
+        "label": "Import"
+      },
+      {
+        "id": "API",
+        "label": "API"
+      },
+      {
+        "id": "Automation",
+        "label": "Automation"
+      },
+      {
+        "id": "Marketplace",
+        "label": "Marketplace"
+      },
+      {
+        "id": "Prospector",
+        "label": "Prospector"
+      },
+      {
+        "id": "LeadSuggestion",
+        "label": "Lead suggestions"
+      },
+      {
+        "id": "WebForms",
+        "label": "Web Forms"
+      },
+      {
+        "id": "Chatbot",
+        "label": "Chatbot"
+      },
+      {
+        "id": "LiveChat",
+        "label": "Live Chat"
+      },
+      {
+        "id": "WebVisitors",
+        "label": "Web Visitors"
+      },
+      {
+        "id": "Campaigns",
+        "label": "Campaigns"
+      },
+      {
+        "id": "MessagingInbox",
+        "label": "Messaging inbox"
+      }
+    ]
+  },
+  {
+    "id": 12490,
+    "key": "origin_id",
+    "name": "Source origin ID",
+    "group_id": null,
+    "order_nr": 0,
+    "field_type": "varchar",
+    "json_column_flag": false,
+    "add_time": "2024-05-23 17:20:13",
+    "update_time": null,
+    "last_updated_by_user_id": null,
+    "edit_flag": false,
+    "details_visible_flag": true,
+    "add_visible_flag": false,
+    "important_flag": false,
+    "bulk_edit_allowed": false,
+    "filtering_allowed": true,
+    "sortable_flag": true,
+    "mandatory_flag": true,
+    "searchable_flag": false,
+    "description": null,
+    "created_by_user_id": null,
+    "active_flag": true,
+    "projects_detail_visible_flag": false,
+    "show_in_pipelines": {
+      "show_in_all": true
+    }
+  },
+  {
+    "id": 12491,
+    "key": "channel",
+    "name": "Source channel",
+    "group_id": null,
+    "order_nr": 0,
+    "field_type": "enum",
+    "json_column_flag": false,
+    "add_time": "2024-05-23 17:20:13",
+    "update_time": "2025-07-04 09:29:12",
+    "last_updated_by_user_id": null,
+    "edit_flag": false,
+    "details_visible_flag": true,
+    "add_visible_flag": true,
+    "important_flag": false,
+    "bulk_edit_allowed": true,
+    "filtering_allowed": true,
+    "sortable_flag": true,
+    "mandatory_flag": true,
+    "searchable_flag": false,
+    "description": null,
+    "created_by_user_id": null,
+    "active_flag": true,
+    "projects_detail_visible_flag": false,
+    "show_in_pipelines": {
+      "show_in_all": true
+    },
+    "options": [
+      {
+        "id": 59,
+        "label": "Prospector",
+        "alt_id": "prospector"
+      },
+      {
+        "id": 60,
+        "label": "Lead Suggestions",
+        "alt_id": "lead_suggestions"
+      },
+      {
+        "id": 61,
+        "label": "Web forms",
+        "alt_id": "web_forms"
+      },
+      {
+        "id": 62,
+        "label": "Chatbot",
+        "alt_id": "chatbot"
+      },
+      {
+        "id": 63,
+        "label": "Live chat",
+        "alt_id": "live_chat"
+      },
+      {
+        "id": 64,
+        "label": "Web visitors",
+        "alt_id": "web_visitors"
+      },
+      {
+        "id": 65,
+        "label": "Campaigns",
+        "alt_id": "campaigns"
+      },
+      {
+        "id": 66,
+        "label": "Marketplace",
+        "alt_id": "marketplace"
+      },
+      {
+        "id": 67,
+        "label": "Messaging Inbox",
+        "alt_id": "messaging_inbox"
+      }
+    ]
+  },
+  {
+    "id": 12492,
+    "key": "channel_id",
+    "name": "Source channel ID",
+    "group_id": null,
+    "order_nr": 0,
+    "field_type": "varchar",
+    "json_column_flag": false,
+    "add_time": "2024-05-23 17:20:13",
+    "update_time": null,
+    "last_updated_by_user_id": null,
+    "edit_flag": false,
+    "details_visible_flag": true,
+    "add_visible_flag": true,
+    "important_flag": false,
+    "bulk_edit_allowed": true,
+    "filtering_allowed": true,
+    "sortable_flag": true,
+    "mandatory_flag": true,
+    "searchable_flag": false,
+    "description": null,
+    "created_by_user_id": null,
+    "active_flag": true,
+    "projects_detail_visible_flag": false,
+    "show_in_pipelines": {
+      "show_in_all": true
+    }
+  },
+  {
+    "id": 12493,
+    "key": "mrr",
+    "name": "MRR",
+    "group_id": null,
+    "order_nr": 0,
+    "field_type": "monetary",
+    "json_column_flag": false,
+    "add_time": "2024-10-15 06:00:53",
+    "update_time": "2025-07-04 09:29:12",
+    "last_updated_by_user_id": null,
+    "edit_flag": false,
+    "details_visible_flag": false,
+    "add_visible_flag": false,
+    "important_flag": false,
+    "bulk_edit_allowed": false,
+    "filtering_allowed": true,
+    "sortable_flag": true,
+    "mandatory_flag": true,
+    "searchable_flag": false,
+    "description": null,
+    "created_by_user_id": null,
+    "active_flag": true,
+    "projects_detail_visible_flag": false,
+    "show_in_pipelines": {
+      "show_in_all": true
+    }
+  },
+  {
+    "id": null,
+    "key": "mrr_currency",
+    "name": "Currency of MRR",
+    "field_type": "varchar",
+    "edit_flag": false,
+    "active_flag": true,
+    "is_subfield": true,
+    "mandatory_flag": true,
+    "parent_id": 12493,
+    "id_suffix": "currency"
+  },
+  {
+    "id": 12494,
+    "key": "arr",
+    "name": "ARR",
+    "group_id": null,
+    "order_nr": 0,
+    "field_type": "monetary",
+    "json_column_flag": false,
+    "add_time": "2024-10-15 06:00:53",
+    "update_time": "2025-07-04 09:29:12",
+    "last_updated_by_user_id": null,
+    "edit_flag": false,
+    "details_visible_flag": false,
+    "add_visible_flag": false,
+    "important_flag": false,
+    "bulk_edit_allowed": false,
+    "filtering_allowed": true,
+    "sortable_flag": true,
+    "mandatory_flag": true,
+    "searchable_flag": false,
+    "description": null,
+    "created_by_user_id": null,
+    "active_flag": true,
+    "projects_detail_visible_flag": false,
+    "show_in_pipelines": {
+      "show_in_all": true
+    }
+  },
+  {
+    "id": null,
+    "key": "arr_currency",
+    "name": "Currency of ARR",
+    "field_type": "varchar",
+    "edit_flag": false,
+    "active_flag": true,
+    "is_subfield": true,
+    "mandatory_flag": true,
+    "parent_id": 12494,
+    "id_suffix": "currency"
+  },
+  {
+    "id": 12495,
+    "key": "acv",
+    "name": "ACV",
+    "group_id": null,
+    "order_nr": 0,
+    "field_type": "monetary",
+    "json_column_flag": false,
+    "add_time": "2024-10-15 06:00:53",
+    "update_time": "2025-07-04 09:29:12",
+    "last_updated_by_user_id": null,
+    "edit_flag": false,
+    "details_visible_flag": false,
+    "add_visible_flag": false,
+    "important_flag": false,
+    "bulk_edit_allowed": false,
+    "filtering_allowed": true,
+    "sortable_flag": true,
+    "mandatory_flag": true,
+    "searchable_flag": false,
+    "description": null,
+    "created_by_user_id": null,
+    "active_flag": true,
+    "projects_detail_visible_flag": false,
+    "show_in_pipelines": {
+      "show_in_all": true
+    }
+  },
+  {
+    "id": null,
+    "key": "acv_currency",
+    "name": "Currency of ACV",
+    "field_type": "varchar",
+    "edit_flag": false,
+    "active_flag": true,
+    "is_subfield": true,
+    "mandatory_flag": true,
+    "parent_id": 12495,
+    "id_suffix": "currency"
+  },
+  {
+    "id": 12496,
+    "key": "is_archived",
+    "name": "Archive status",
+    "group_id": null,
+    "order_nr": 0,
+    "field_type": "enum",
+    "json_column_flag": false,
+    "add_time": "2025-03-20 11:02:09",
+    "update_time": null,
+    "last_updated_by_user_id": null,
+    "edit_flag": false,
+    "details_visible_flag": false,
+    "add_visible_flag": false,
+    "important_flag": false,
+    "bulk_edit_allowed": true,
+    "filtering_allowed": true,
+    "sortable_flag": true,
+    "mandatory_flag": true,
+    "searchable_flag": false,
+    "description": null,
+    "created_by_user_id": null,
+    "active_flag": true,
+    "projects_detail_visible_flag": false,
+    "show_in_pipelines": {
+      "show_in_all": true
+    },
+    "options": [
+      {
+        "id": false,
+        "label": "Not archived"
+      },
+      {
+        "id": true,
+        "label": "Archived"
+      }
+    ]
+  },
+  {
+    "id": 12497,
+    "key": "archive_time",
+    "name": "Archive time",
+    "group_id": null,
+    "order_nr": 0,
+    "field_type": "date",
+    "json_column_flag": false,
+    "add_time": "2025-03-20 11:02:09",
+    "update_time": null,
+    "last_updated_by_user_id": null,
+    "edit_flag": false,
+    "details_visible_flag": false,
+    "add_visible_flag": false,
+    "important_flag": false,
+    "bulk_edit_allowed": false,
+    "filtering_allowed": true,
+    "sortable_flag": true,
+    "mandatory_flag": true,
+    "searchable_flag": false,
+    "description": null,
+    "created_by_user_id": null,
+    "active_flag": true,
+    "projects_detail_visible_flag": false,
+    "show_in_pipelines": {
+      "show_in_all": true
+    }
+  },
+  {
+    "id": 12498,
+    "key": "sequence_enrollment",
+    "name": "Sequence enrollment",
+    "group_id": 1,
+    "order_nr": 0,
+    "field_type": "boolean",
+    "json_column_flag": false,
+    "add_time": "2025-07-04 10:43:20",
+    "update_time": null,
+    "last_updated_by_user_id": null,
+    "edit_flag": false,
+    "details_visible_flag": true,
+    "add_visible_flag": false,
+    "important_flag": false,
+    "bulk_edit_allowed": false,
+    "filtering_allowed": false,
+    "sortable_flag": false,
+    "mandatory_flag": true,
+    "searchable_flag": false,
+    "description": null,
+    "created_by_user_id": null,
+    "active_flag": true,
+    "projects_detail_visible_flag": false,
+    "show_in_pipelines": {
+      "show_in_all": true
+    }
+  },
+  {
+    "id": 12488,
+    "key": "27d4af5421c600368b825b433bae74c2691e19a9",
+    "name": "DRIVE",
+    "group_id": null,
+    "order_nr": 1,
+    "field_type": "varchar",
+    "json_column_flag": true,
+    "add_time": "2024-03-13 14:27:47",
+    "update_time": "2025-07-04 09:29:12",
+    "last_updated_by_user_id": 14953715,
+    "edit_flag": true,
+    "details_visible_flag": true,
+    "add_visible_flag": false,
+    "important_flag": false,
+    "bulk_edit_allowed": true,
+    "filtering_allowed": true,
+    "sortable_flag": true,
+    "mandatory_flag": false,
+    "searchable_flag": true,
+    "description": null,
+    "created_by_user_id": null,
+    "active_flag": true,
+    "projects_detail_visible_flag": false,
+    "show_in_pipelines": {
+      "show_in_all": true,
+      "pipeline_ids": []
+    }
+  }
+]

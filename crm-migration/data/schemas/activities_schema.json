@@ -1,0 +1,145 @@
+{
+  "add_time": {
+    "type": "datetime",
+    "fill_rate": 1.0,
+    "sample": "2022-09-05T11:18:31Z"
+  },
+  "busy": {
+    "type": "boolean",
+    "fill_rate": 1.0,
+    "sample": false
+  },
+  "conference_meeting_client": {
+    "type": "null",
+    "fill_rate": 0.023,
+    "sample": "57da5c3c55a82bb6"
+  },
+  "conference_meeting_id": {
+    "type": "null",
+    "fill_rate": 0.0,
+    "sample": null
+  },
+  "conference_meeting_url": {
+    "type": "null",
+    "fill_rate": 0.023,
+    "sample": "https://meet.google.com/yym-yjtx-nrt"
+  },
+  "creator_user_id": {
+    "type": "integer",
+    "fill_rate": 1.0,
+    "sample": 14953704
+  },
+  "deal_id": {
+    "type": "null",
+    "fill_rate": 0.271,
+    "sample": 2
+  },
+  "done": {
+    "type": "boolean",
+    "fill_rate": 1.0,
+    "sample": true
+  },
+  "due_date": {
+    "type": "date",
+    "fill_rate": 1.0,
+    "sample": "2022-02-20"
+  },
+  "due_time": {
+    "type": "string",
+    "fill_rate": 0.523,
+    "sample": "13:00"
+  },
+  "duration": {
+    "type": "null",
+    "fill_rate": 0.431,
+    "sample": "24:00"
+  },
+  "id": {
+    "type": "integer",
+    "fill_rate": 1.0,
+    "sample": 2
+  },
+  "is_deleted": {
+    "type": "boolean",
+    "fill_rate": 1.0,
+    "sample": false
+  },
+  "lead_id": {
+    "type": "null",
+    "fill_rate": 0.125,
+    "sample": "e787b1d0-9660-11ed-bb56-27ffb3ca5997"
+  },
+  "location": {
+    "type": "null",
+    "fill_rate": 0.031,
+    "sample": {
+      "value": "Funland ",
+      "subpremise": null,
+      "street_number": null,
+      "route": null
+    }
+  },
+  "marked_as_done_time": {
+    "type": "datetime",
+    "fill_rate": 0.94,
+    "sample": "2022-09-05T11:18:31Z"
+  },
+  "note": {
+    "type": "null",
+    "fill_rate": 0.458,
+    "sample": "<p>Hei,</p><p>Sovin teille tapaamisen, käydyn keskustelun tiedot löytyvät alta. Lähetättehän vahvistuksena kalenterikutsun prospektille, kiitos.</p><p>&nbsp;</p><p>Haastattelupäivä:&nbsp;26.8.2022</p><p>Klo:&nbsp;13:08</p><p>Yritys:&nbsp;Dieta Oy</p><p>Puh:&nbsp;0404552240</p><p>Osoite:&nbsp;Holkkitie 8A</p><p>Postinumero ja toimipaikka:&nbsp;00811&nbsp;HELSINKI</p><p>Haastateltu:&nbsp;Tietohallintojohtaja&nbsp;Marko Nousiainen</p><p>Toimenpide: Etätapaaminen<br><br>Tapaamisen PVM: 12.9.2022<br>Kellonaika: 12:00<br><br>Agenda: Kertoi, että Webson konsepti kuulostaa oikein mielenkiintoiselta, ja heillä on juuri resurssipula verkkokaupan kehittämiseen liittyvissä asioissa. On juuri keräämässä listaa asioista, mihin kaikkeen tarvitsevat apua, ja tulevana maanantaina on palaveri yhteistyökumppanin kanssa. On kiinnostunut kuulemaan Webson toimintatavasta ja hinnoittelusta, onko esim. projektikohtainen, könttähintainen, tuntiperusteinen vai millainen. Sovittiin Teams-palaveri ma 12.9. klo 12.00. Ajoi juuri autoa, eikä siis ollut kalenterin äärellä, mutta muisteli tämän ajankohdan sopivan.<br>&nbsp;</p><p>Sähköpostiosoite:&nbsp;<a href=\"mailto:marko.nousiainen@dieta.fi\" rel=\"noopener noreferrer\">marko.nousiainen@dieta.fi</a></p><p>&nbsp;</p><p>Lähetättehän kalenterikutsun prospektille sovitusti, kiitos.</p><p>&nbsp;</p><p>Terveisin,</p><p>Niina Mäkinen</p><p>MicroMedia Oy</p>"
+  },
+  "org_id": {
+    "type": "integer",
+    "fill_rate": 0.814,
+    "sample": 2
+  },
+  "owner_id": {
+    "type": "integer",
+    "fill_rate": 1.0,
+    "sample": 14953704
+  },
+  "participants": {
+    "type": "array",
+    "fill_rate": 0.762,
+    "sample": {
+      "person_id": 4,
+      "primary": true
+    }
+  },
+  "person_id": {
+    "type": "integer",
+    "fill_rate": 0.762,
+    "sample": 4
+  },
+  "priority": {
+    "type": "null",
+    "fill_rate": 0.001,
+    "sample": 40
+  },
+  "project_id": {
+    "type": "null",
+    "fill_rate": 0.0,
+    "sample": null
+  },
+  "public_description": {
+    "type": "string",
+    "fill_rate": 0.061,
+    "sample": "Puhujat + catering + tilan varaus"
+  },
+  "subject": {
+    "type": "string",
+    "fill_rate": 1.0,
+    "sample": "Paavon syndet"
+  },
+  "type": {
+    "type": "string",
+    "fill_rate": 1.0,
+    "sample": "meeting"
+  },
+  "update_time": {
+    "type": "datetime",
+    "fill_rate": 1.0,
+    "sample": "2026-03-07T12:49:12Z"
+  }
+}

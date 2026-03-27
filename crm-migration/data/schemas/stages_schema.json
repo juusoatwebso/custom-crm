@@ -1,0 +1,52 @@
+{
+  "add_time": {
+    "type": "datetime",
+    "fill_rate": 1.0,
+    "sample": "2023-01-20T15:01:34Z"
+  },
+  "days_to_rotten": {
+    "type": "null",
+    "fill_rate": 0.037,
+    "sample": 160
+  },
+  "deal_probability": {
+    "type": "integer",
+    "fill_rate": 1.0,
+    "sample": 100
+  },
+  "id": {
+    "type": "integer",
+    "fill_rate": 1.0,
+    "sample": 7
+  },
+  "is_deal_rot_enabled": {
+    "type": "boolean",
+    "fill_rate": 1.0,
+    "sample": false
+  },
+  "is_deleted": {
+    "type": "boolean",
+    "fill_rate": 1.0,
+    "sample": false
+  },
+  "name": {
+    "type": "string",
+    "fill_rate": 1.0,
+    "sample": "Keskustelu avattu"
+  },
+  "order_nr": {
+    "type": "integer",
+    "fill_rate": 1.0,
+    "sample": 1
+  },
+  "pipeline_id": {
+    "type": "integer",
+    "fill_rate": 1.0,
+    "sample": 2
+  },
+  "update_time": {
+    "type": "datetime",
+    "fill_rate": 1.0,
+    "sample": "2023-02-24T10:49:50Z"
+  }
+}

@@ -1,0 +1,288 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id    String @id @default(uuid())
+  name  String
+  email String @unique
+
+  pipedriveId Int? @unique
+
+  ownedOrganizations Organization[]
+  ownedPersons       Person[]
+  ownedDeals         Deal[]
+  assignedActivities Activity[]
+  createdActivities  Activity[]     @relation("ActivityCreator")
+  createdNotes       Note[]
+  flowEvents         DealFlowEvent[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Pipeline {
+  id   String @id @default(uuid())
+  name String
+
+  pipedriveId Int? @unique
+
+  stages Stage[]
+  deals  Deal[]
+
+  orderNr Int @default(0)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Stage {
+  id   String @id @default(uuid())
+  name String
+
+  pipedriveId Int? @unique
+
+  pipeline   Pipeline @relation(fields: [pipelineId], references: [id])
+  pipelineId String
+  deals      Deal[]
+
+  orderNr         Int @default(0)
+  dealProbability Int @default(100)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Organization {
+  id   String @id @default(uuid())
+  name String
+
+  address   String?
+  website   String?
+
+  // Finnish custom fields
+  ytunnus         String?
+  virallinen_nimi String?
+  henkilokunta    String?
+  liikevaihto     String?
+  perustettu      String?
+  paatoimiala_tol String?
+  paatoimiala_pf  String?
+  markkinointinimi String?
+
+  pipedriveId Int? @unique
+
+  owner   User?   @relation(fields: [ownerId], references: [id])
+  ownerId String?
+
+  persons    Person[]
+  deals      Deal[]
+  activities Activity[]
+  notes      Note[]
+
+  isDeleted Boolean  @default(false)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Person {
+  id        String  @id @default(uuid())
+  firstName String
+  lastName  String?
+
+  email       String?
+  phone       String?
+  jobTitle    String?
+
+  pipedriveId Int? @unique
+
+  organization   Organization? @relation(fields: [organizationId], references: [id])
+  organizationId String?
+
+  owner   User?   @relation(fields: [ownerId], references: [id])
+  ownerId String?
+
+  deals      Deal[]
+  activities Activity[]
+  notes      Note[]
+
+  isDeleted Boolean  @default(false)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+enum DealStatus {
+  OPEN
+  WON
+  LOST
+}
+
+model Deal {
+  id     String @id @default(uuid())
+  title  String
+  status DealStatus @default(OPEN)
+  isLead Boolean    @default(false)
+
+  value    Float?
+  currency String @default("EUR")
+
+  expectedCloseDate String?
+  lostReason        String?
+  probability       Int?
+
+  pipelineName  String?
+  pipelineStage String?
+  wonAt         DateTime?
+  lostAt        DateTime?
+  stageChangedAt DateTime?
+  origin        String?
+  drive         String?
+
+  pipedriveId    String? @unique
+
+  pipeline   Pipeline? @relation(fields: [pipelineId], references: [id])
+  pipelineId String?
+
+  stage   Stage?  @relation(fields: [stageId], references: [id])
+  stageId String?
+
+  organization   Organization? @relation(fields: [organizationId], references: [id])
+  organizationId String?
+
+  person   Person? @relation(fields: [personId], references: [id])
+  personId String?
+
+  owner   User?   @relation(fields: [ownerId], references: [id])
+  ownerId String?
+
+  activities     Activity[]
+  notes          Note[]
+  flowEvents     DealFlowEvent[]
+
+  isDeleted Boolean  @default(false)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+enum ActivityType {
+  CALL
+  MEETING
+  EMAIL
+  UNANSWERED_CALL
+  TASK
+  DEADLINE
+  LUNCH
+  BUUKKAUS
+  PERUTTU_PALAVERI
+}
+
+model Activity {
+  id       String       @id @default(uuid())
+  subject  String
+  type     ActivityType @default(TASK)
+  done     Boolean      @default(false)
+
+  note     String?
+  dueDate  DateTime?
+  dueTime  String?
+  duration String?
+  location String?
+
+  pipedriveId Int? @unique
+
+  assignee   User?   @relation(fields: [assigneeId], references: [id])
+  assigneeId String?
+
+  creator   User?   @relation("ActivityCreator", fields: [creatorId], references: [id])
+  creatorId String?
+
+  organization   Organization? @relation(fields: [organizationId], references: [id])
+  organizationId String?
+
+  person   Person? @relation(fields: [personId], references: [id])
+  personId String?
+
+  deal   Deal?   @relation(fields: [dealId], references: [id])
+  dealId String?
+
+  isDeleted Boolean  @default(false)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+enum DealFlowEventType {
+  DEAL_CHANGE
+  ACTIVITY
+  NOTE
+  FILE
+  MAIL_MESSAGE
+}
+
+model DealFlowEvent {
+  id        String             @id @default(uuid())
+  eventType DealFlowEventType
+  timestamp DateTime
+
+  // For DEAL_CHANGE events
+  fieldKey  String?
+  oldValue  String?
+  newValue  String?
+  oldValueFormatted String?
+  newValueFormatted String?
+
+  // For ACTIVITY events
+  activitySubject String?
+  activityType    String?
+  activityDone    Boolean?
+
+  // For NOTE events
+  noteContent String?
+
+  // For FILE events
+  fileName    String?
+
+  // For MAIL_MESSAGE events
+  mailSubject String?
+
+  // Common
+  userName  String?
+
+  deal   Deal   @relation(fields: [dealId], references: [id])
+  dealId String
+
+  user   User?   @relation(fields: [userId], references: [id])
+  userId String?
+
+  pipedriveId Int?
+
+  createdAt DateTime @default(now())
+
+  @@index([dealId, timestamp])
+}
+
+model Note {
+  id      String @id @default(uuid())
+  content String
+
+  pipedriveId Int? @unique
+
+  author   User?   @relation(fields: [authorId], references: [id])
+  authorId String?
+
+  organization   Organization? @relation(fields: [organizationId], references: [id])
+  organizationId String?
+
+  person   Person? @relation(fields: [personId], references: [id])
+  personId String?
+
+  deal   Deal?   @relation(fields: [dealId], references: [id])
+  dealId String?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}

@@ -1,0 +1,394 @@
+[
+  {
+    "id": 1,
+    "name": "Aleksi - Alihankinta",
+    "tax": 0,
+    "add_time": "2023-06-12T12:37:57Z",
+    "update_time": "2023-06-12T12:37:58Z",
+    "description": "",
+    "code": "",
+    "unit": "",
+    "owner_id": 14953704,
+    "category": null,
+    "is_deleted": false,
+    "is_linkable": true,
+    "prices": [
+      {
+        "product_id": 1,
+        "price": 0,
+        "currency": "EUR",
+        "cost": 0,
+        "direct_cost": 0,
+        "notes": ""
+      }
+    ],
+    "custom_fields": {},
+    "visible_to": 3,
+    "billing_frequency": "one-time",
+    "billing_frequency_cycles": null
+  },
+  {
+    "id": 2,
+    "name": "Pekka Mattinen - Alihankinta",
+    "tax": 0,
+    "add_time": "2023-09-22T06:25:06Z",
+    "update_time": "2023-09-22T06:25:06Z",
+    "description": "",
+    "code": "",
+    "unit": "",
+    "owner_id": 14953704,
+    "category": null,
+    "is_deleted": false,
+    "is_linkable": true,
+    "prices": [
+      {
+        "product_id": 2,
+        "price": 0,
+        "currency": "EUR",
+        "cost": 0,
+        "direct_cost": 0,
+        "notes": ""
+      }
+    ],
+    "custom_fields": {},
+    "visible_to": 3,
+    "billing_frequency": "one-time",
+    "billing_frequency_cycles": null
+  },
+  {
+    "id": 3,
+    "name": "Veli-Pekka - Alihankinta",
+    "tax": 0,
+    "add_time": "2023-09-25T14:07:58Z",
+    "update_time": "2023-09-25T14:07:58Z",
+    "description": "",
+    "code": "",
+    "unit": "",
+    "owner_id": 14953704,
+    "category": null,
+    "is_deleted": false,
+    "is_linkable": true,
+    "prices": [
+      {
+        "product_id": 3,
+        "price": 0,
+        "currency": "EUR",
+        "cost": 0,
+        "direct_cost": 0,
+        "notes": ""
+      }
+    ],
+    "custom_fields": {},
+    "visible_to": 3,
+    "billing_frequency": "one-time",
+    "billing_frequency_cycles": null
+  },
+  {
+    "id": 4,
+    "name": "Verkkokauppa",
+    "tax": 0,
+    "add_time": "2023-09-25T14:08:37Z",
+    "update_time": "2023-09-25T14:08:37Z",
+    "description": "",
+    "code": "",
+    "unit": "",
+    "owner_id": 14953704,
+    "category": null,
+    "is_deleted": false,
+    "is_linkable": true,
+    "prices": [
+      {
+        "product_id": 4,
+        "price": 0,
+        "currency": "EUR",
+        "cost": 0,
+        "direct_cost": 0,
+        "notes": ""
+      }
+    ],
+    "custom_fields": {},
+    "visible_to": 3,
+    "billing_frequency": "one-time",
+    "billing_frequency_cycles": null
+  },
+  {
+    "id": 5,
+    "name": "Verkkosivut",
+    "tax": 0,
+    "add_time": "2023-09-25T14:09:48Z",
+    "update_time": "2023-09-25T14:09:48Z",
+    "description": "",
+    "code": "",
+    "unit": "",
+    "owner_id": 14953704,
+    "category": null,
+    "is_deleted": false,
+    "is_linkable": true,
+    "prices": [
+      {
+        "product_id": 5,
+        "price": 0,
+        "currency": "EUR",
+        "cost": 0,
+        "direct_cost": 0,
+        "notes": ""
+      }
+    ],
+    "custom_fields": {},
+    "visible_to": 3,
+    "billing_frequency": "one-time",
+    "billing_frequency_cycles": null
+  },
+  {
+    "id": 6,
+    "name": "Testi",
+    "tax": 0,
+    "add_time": "2024-02-26T17:20:27Z",
+    "update_time": "2026-03-11T08:48:59Z",
+    "description": "",
+    "code": "Kamppis koodi",
+    "unit": "",
+    "owner_id": 14953704,
+    "category": null,
+    "is_deleted": false,
+    "is_linkable": true,
+    "prices": [
+      {
+        "product_id": 6,
+        "price": 0,
+        "currency": "EUR",
+        "cost": 0,
+        "direct_cost": 0,
+        "notes": ""
+      }
+    ],
+    "custom_fields": {},
+    "visible_to": 3,
+    "billing_frequency": "one-time",
+    "billing_frequency_cycles": null
+  },
+  {
+    "id": 7,
+    "name": "Projekti",
+    "tax": 0,
+    "add_time": "2024-04-11T10:50:53Z",
+    "update_time": "2024-04-11T10:50:53Z",
+    "description": "",
+    "code": "",
+    "unit": "",
+    "owner_id": 14953704,
+    "category": null,
+    "is_deleted": false,
+    "is_linkable": true,
+    "prices": [
+      {
+        "product_id": 7,
+        "price": 0,
+        "currency": "EUR",
+        "cost": 0,
+        "direct_cost": 0,
+        "notes": ""
+      }
+    ],
+    "custom_fields": {},
+    "visible_to": 3,
+    "billing_frequency": "one-time",
+    "billing_frequency_cycles": null
+  },
+  {
+    "id": 8,
+    "name": "Leevi - Alihankinta",
+    "tax": 0,
+    "add_time": "2024-04-12T12:30:12Z",
+    "update_time": "2024-04-12T12:30:12Z",
+    "description": "",
+    "code": "",
+    "unit": "",
+    "owner_id": 14953704,
+    "category": null,
+    "is_deleted": false,
+    "is_linkable": true,
+    "prices": [
+      {
+        "product_id": 8,
+        "price": 0,
+        "currency": "EUR",
+        "cost": 0,
+        "direct_cost": 0,
+        "notes": ""
+      }
+    ],
+    "custom_fields": {},
+    "visible_to": 3,
+    "billing_frequency": "one-time",
+    "billing_frequency_cycles": null
+  },
+  {
+    "id": 9,
+    "name": "Paavo",
+    "tax": 0,
+    "add_time": "2025-02-03T15:00:39Z",
+    "update_time": "2025-02-03T15:00:39Z",
+    "description": "",
+    "code": "",
+    "unit": "",
+    "owner_id": 14953704,
+    "category": null,
+    "is_deleted": false,
+    "is_linkable": true,
+    "prices": [
+      {
+        "product_id": 9,
+        "price": 0,
+        "currency": "EUR",
+        "cost": 0,
+        "direct_cost": 0,
+        "notes": ""
+      }
+    ],
+    "custom_fields": {},
+    "visible_to": 3,
+    "billing_frequency": "one-time",
+    "billing_frequency_cycles": null
+  },
+  {
+    "id": 10,
+    "name": "Paavo",
+    "tax": 0,
+    "add_time": "2025-02-03T15:02:07Z",
+    "update_time": "2025-02-03T15:02:07Z",
+    "description": "",
+    "code": "",
+    "unit": "",
+    "owner_id": 14953704,
+    "category": null,
+    "is_deleted": false,
+    "is_linkable": true,
+    "prices": [
+      {
+        "product_id": 10,
+        "price": 0,
+        "currency": "EUR",
+        "cost": 0,
+        "direct_cost": 0,
+        "notes": ""
+      }
+    ],
+    "custom_fields": {},
+    "visible_to": 3,
+    "billing_frequency": "one-time",
+    "billing_frequency_cycles": null
+  },
+  {
+    "id": 11,
+    "name": "Miikka",
+    "tax": 0,
+    "add_time": "2025-02-03T15:02:08Z",
+    "update_time": "2025-02-03T15:02:08Z",
+    "description": "",
+    "code": "",
+    "unit": "",
+    "owner_id": 14953704,
+    "category": null,
+    "is_deleted": false,
+    "is_linkable": true,
+    "prices": [
+      {
+        "product_id": 11,
+        "price": 0,
+        "currency": "EUR",
+        "cost": 0,
+        "direct_cost": 0,
+        "notes": ""
+      }
+    ],
+    "custom_fields": {},
+    "visible_to": 3,
+    "billing_frequency": "one-time",
+    "billing_frequency_cycles": null
+  },
+  {
+    "id": 12,
+    "name": "Max Kalhama",
+    "tax": 0,
+    "add_time": "2025-04-08T14:28:36Z",
+    "update_time": "2025-04-08T14:28:36Z",
+    "description": "",
+    "code": "",
+    "unit": "",
+    "owner_id": 14953704,
+    "category": null,
+    "is_deleted": false,
+    "is_linkable": true,
+    "prices": [
+      {
+        "product_id": 12,
+        "price": 0,
+        "currency": "EUR",
+        "cost": 0,
+        "direct_cost": 0,
+        "notes": ""
+      }
+    ],
+    "custom_fields": {},
+    "visible_to": 3,
+    "billing_frequency": "one-time",
+    "billing_frequency_cycles": null
+  },
+  {
+    "id": 13,
+    "name": "Cedric - Alihankinta",
+    "tax": 0,
+    "add_time": "2025-04-09T05:24:59Z",
+    "update_time": "2025-04-09T05:24:59Z",
+    "description": "",
+    "code": "",
+    "unit": "",
+    "owner_id": 14953704,
+    "category": null,
+    "is_deleted": false,
+    "is_linkable": true,
+    "prices": [
+      {
+        "product_id": 13,
+        "price": 0,
+        "currency": "EUR",
+        "cost": 0,
+        "direct_cost": 0,
+        "notes": ""
+      }
+    ],
+    "custom_fields": {},
+    "visible_to": 3,
+    "billing_frequency": "one-time",
+    "billing_frequency_cycles": null
+  },
+  {
+    "id": 14,
+    "name": "Sisäänajohinta - Alihankinta",
+    "tax": 0,
+    "add_time": "2025-04-09T05:24:59Z",
+    "update_time": "2025-04-09T05:24:59Z",
+    "description": "",
+    "code": "",
+    "unit": "",
+    "owner_id": 14953704,
+    "category": null,
+    "is_deleted": false,
+    "is_linkable": true,
+    "prices": [
+      {
+        "product_id": 14,
+        "price": 0,
+        "currency": "EUR",
+        "cost": 0,
+        "direct_cost": 0,
+        "notes": ""
+      }
+    ],
+    "custom_fields": {},
+    "visible_to": 3,
+    "billing_frequency": "one-time",
+    "billing_frequency_cycles": null
+  }
+]
