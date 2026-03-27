@@ -1,8 +1,23 @@
-export { auth as middleware } from "@/lib/auth";
+import { auth } from "@/lib/auth";
+import { NextResponse } from "next/server";
+
+export default auth((req) => {
+  const isLoggedIn = !!req.auth?.user;
+  const isLoginPage = req.nextUrl.pathname === "/login";
+
+  if (!isLoggedIn && !isLoginPage) {
+    return NextResponse.redirect(new URL("/login", req.url));
+  }
+
+  if (isLoggedIn && isLoginPage) {
+    return NextResponse.redirect(new URL("/", req.url));
+  }
+
+  return NextResponse.next();
+});
 
 export const config = {
   matcher: [
-    // Protect everything except login, API auth routes, and static files
-    "/((?!login|api/auth|_next/static|_next/image|favicon.ico).*)",
+    "/((?!api/auth|_next/static|_next/image|favicon.ico|icon.png).*)",
   ],
 };

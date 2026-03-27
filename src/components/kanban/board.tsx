@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useCallback } from "react"
+import { useState, useRef } from "react"
 import {
   DragDropContext,
   Droppable,
@@ -33,64 +33,67 @@ interface KanbanBoardProps {
 export function KanbanBoard({ stages: initialStages }: KanbanBoardProps) {
   const { toast } = useToast()
   const [stages, setStages] = useState<KanbanStage[]>(initialStages)
+  const stagesRef = useRef(stages)
+  stagesRef.current = stages
 
-  const handleDragEnd = useCallback(
-    async (result: DropResult) => {
-      const { source, destination, draggableId } = result
+  const handleDragEnd = async (result: DropResult) => {
+    const { source, destination, draggableId } = result
 
-      if (!destination) return
+    if (!destination) return
 
-      if (
-        source.droppableId === destination.droppableId &&
-        source.index === destination.index
-      ) {
-        return
-      }
+    if (
+      source.droppableId === destination.droppableId &&
+      source.index === destination.index
+    ) {
+      return
+    }
 
-      const sourceDeal = stages
-        .find((s) => s.id === source.droppableId)
-        ?.deals.find((d) => d.id === draggableId)
+    // Snapshot before the move for rollback
+    const snapshotBeforeMove = stagesRef.current
 
-      if (!sourceDeal) return
+    const sourceDeal = snapshotBeforeMove
+      .find((s) => s.id === source.droppableId)
+      ?.deals.find((d) => d.id === draggableId)
 
-      setStages((prevStages) =>
-        prevStages.map((stage) => {
-          if (stage.id === source.droppableId) {
-            return {
-              ...stage,
-              deals: stage.deals.filter((d) => d.id !== draggableId),
-            }
+    if (!sourceDeal) return
+
+    const destStageName = snapshotBeforeMove.find((s) => s.id === destination.droppableId)?.name
+
+    // Optimistic update
+    setStages((prevStages) =>
+      prevStages.map((stage) => {
+        if (stage.id === source.droppableId) {
+          return {
+            ...stage,
+            deals: stage.deals.filter((d) => d.id !== draggableId),
           }
-          if (stage.id === destination.droppableId) {
-            const newDeals = [...stage.deals]
-            newDeals.splice(destination.index, 0, sourceDeal)
-            return { ...stage, deals: newDeals }
-          }
-          return stage
-        })
-      )
-
-      try {
-        const response = await fetch(`/api/deals/${draggableId}`, {
-          method: "PUT",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ stageId: destination.droppableId }),
-        })
-
-        if (!response.ok) {
-          setStages(initialStages)
-          throw new Error("Failed to update deal")
         }
-        const destStage = stages.find((s) => s.id === destination.droppableId)
-        toast(`Moved to ${destStage?.name || "new stage"}`)
-      } catch (error) {
-        console.error("Error updating deal:", error)
-        setStages(initialStages)
-        toast("Failed to move deal", "error")
+        if (stage.id === destination.droppableId) {
+          const newDeals = [...stage.deals]
+          newDeals.splice(destination.index, 0, sourceDeal)
+          return { ...stage, deals: newDeals }
+        }
+        return stage
+      })
+    )
+
+    try {
+      const response = await fetch(`/api/deals/${draggableId}`, {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ stageId: destination.droppableId }),
+      })
+
+      if (!response.ok) {
+        throw new Error("Failed to update deal")
       }
-    },
-    [initialStages]
-  )
+      toast(`Moved to ${destStageName || "new stage"}`)
+    } catch (error) {
+      console.error("Error updating deal:", error)
+      setStages(snapshotBeforeMove)
+      toast("Failed to move deal", "error")
+    }
+  }
 
   return (
     <DragDropContext onDragEnd={handleDragEnd}>

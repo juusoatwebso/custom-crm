@@ -64,7 +64,7 @@ export default function PersonsPage() {
   return (
     <div className="flex flex-col h-full">
       <Header title="People" description={`${total} people`}>
-        <Button asChild size="sm"><Link href="/persons/new"><Plus className="h-3.5 w-3.5" />New person</Link></Button>
+        <Button asChild size="sm"><Link href="/persons/new" className="flex items-center gap-1.5"><Plus className="h-3.5 w-3.5" />New person</Link></Button>
       </Header>
       <div className="flex-1 p-6 overflow-auto">
         <DataTable columns={columns} data={data} pageCount={Math.ceil(total / PAGE_SIZE)} pageIndex={page} pageSize={PAGE_SIZE} onPageChange={setPage} onSearch={(q) => { setSearch(q); setPage(0); }} searchPlaceholder="Search people..." isLoading={isLoading} getRowHref={(row) => `/persons/${row.id}`} />

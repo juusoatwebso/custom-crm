@@ -78,7 +78,6 @@ export function DataTable<TData>({
           value={searchValue}
           onChange={(e) => handleSearch(e.target.value)}
           className="pl-8 h-8 text-sm"
-          disabled={isLoading}
         />
       </div>
 

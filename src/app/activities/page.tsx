@@ -79,7 +79,7 @@ export default function ActivitiesPage() {
   return (
     <div className="flex flex-col h-full">
       <Header title="Activities" description={`${total} activities`}>
-        <Button asChild size="sm"><Link href="/activities/new"><Plus className="h-3.5 w-3.5" />New activity</Link></Button>
+        <Button asChild size="sm"><Link href="/activities/new" className="flex items-center gap-1.5"><Plus className="h-3.5 w-3.5" />New activity</Link></Button>
       </Header>
       <div className="flex-1 p-6 overflow-auto">
         <div className="flex gap-1 mb-4">

@@ -66,7 +66,7 @@ export default function LeadsPage() {
   return (
     <div className="flex flex-col h-full">
       <Header title="Leads" description={`${total} leads`}>
-        <Button asChild size="sm"><Link href="/leads/new"><Plus className="h-3.5 w-3.5" />New lead</Link></Button>
+        <Button asChild size="sm"><Link href="/leads/new" className="flex items-center gap-1.5"><Plus className="h-3.5 w-3.5" />New lead</Link></Button>
       </Header>
       <div className="flex-1 p-6 overflow-auto">
         <DataTable columns={columns} data={data} pageCount={Math.ceil(total / PAGE_SIZE)} pageIndex={page} pageSize={PAGE_SIZE} onPageChange={setPage} onSearch={(q) => { setSearch(q); setPage(0); }} searchPlaceholder="Search leads..." isLoading={isLoading} getRowHref={(row) => `/deals/${row.id}`} />

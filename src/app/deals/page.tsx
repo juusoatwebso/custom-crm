@@ -142,7 +142,7 @@ export default function DealsPage() {
     <div className="flex flex-col h-full">
       <Header title="Deals" description={`${total} deals`}>
         <Button asChild size="sm">
-          <Link href="/deals/new">
+          <Link href="/deals/new" className="flex items-center gap-1.5">
             <Plus className="h-3.5 w-3.5" />
             New deal
           </Link>

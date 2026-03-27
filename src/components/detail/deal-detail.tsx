@@ -372,6 +372,7 @@ export function DealDetail({ deal }: DealDetailProps) {
   const [noteText, setNoteText] = useState("");
   const [isNoteSubmitting, setIsNoteSubmitting] = useState(false);
   const [editingActivity, setEditingActivity] = useState<ActivityData | null>(null);
+  const [editingNote, setEditingNote] = useState<{ id: string; content: string } | null>(null);
   const [lostReason, setLostReason] = useState(deal.lostReason || "");
   const [isUpdatingStatus, setIsUpdatingStatus] = useState(false);
 
@@ -379,6 +380,12 @@ export function DealDetail({ deal }: DealDetailProps) {
   const activityByPipedriveId = new Map<number, ActivityData>();
   for (const a of deal.activities) {
     if (a.pipedriveId) activityByPipedriveId.set(a.pipedriveId, a);
+  }
+
+  // Build map: pipedriveId → Note record (for matching flow event notes to editable notes)
+  const noteByPipedriveId = new Map<number, { id: string; content: string }>();
+  for (const n of deal.notes) {
+    if (n.pipedriveId) noteByPipedriveId.set(n.pipedriveId, { id: n.id, content: n.content });
   }
 
   // Build a set of note/activity pipedriveIds already represented in flowEvents
@@ -870,7 +877,13 @@ export function DealDetail({ deal }: DealDetailProps) {
                             ? activityByPipedriveId.get(entry.event.pipedriveId)
                             : undefined
                         }
+                        matchedNote={
+                          entry.event.eventType === "NOTE" && entry.event.pipedriveId
+                            ? noteByPipedriveId.get(entry.event.pipedriveId)
+                            : undefined
+                        }
                         onEditActivity={setEditingActivity}
+                        onEditNote={setEditingNote}
                       />
                     );
                   }
@@ -879,6 +892,7 @@ export function DealDetail({ deal }: DealDetailProps) {
                       <StandaloneNoteItem
                         key={`note-${entry.note.id}`}
                         note={entry.note}
+                        onEdit={() => setEditingNote({ id: entry.note.id, content: entry.note.content })}
                       />
                     );
                   }
@@ -974,6 +988,19 @@ export function DealDetail({ deal }: DealDetailProps) {
         </div>
       )}
 
+      {/* Edit note modal */}
+      {editingNote && (
+        <NoteEditModal
+          noteId={editingNote.id}
+          initialContent={editingNote.content}
+          onSuccess={() => {
+            setEditingNote(null);
+            router.refresh();
+          }}
+          onCancel={() => setEditingNote(null)}
+        />
+      )}
+
       {/* Mark as lost dialog */}
       <Dialog ref={lostDialog.ref}>
         <DialogContent>
@@ -1014,11 +1041,15 @@ export function DealDetail({ deal }: DealDetailProps) {
 function TimelineItem({
   event,
   matchedActivity,
+  matchedNote,
   onEditActivity,
+  onEditNote,
 }: {
   event: FlowEvent;
   matchedActivity?: ActivityData;
+  matchedNote?: { id: string; content: string };
   onEditActivity: (a: ActivityData) => void;
+  onEditNote: (n: { id: string; content: string }) => void;
 }) {
   const userName = event.user?.name || event.userName || "";
   const time = formatFlowDate(event.timestamp);
@@ -1110,17 +1141,29 @@ function TimelineItem({
   }
 
   if (event.eventType === "NOTE") {
+    const isEditable = !!matchedNote;
     return (
-      <div className="relative flex gap-3 py-2.5 pl-2">
+      <div
+        className={cn(
+          "relative flex gap-3 py-2.5 pl-2 group",
+          isEditable && "cursor-pointer hover:bg-muted/40 -mx-2 px-2 rounded transition-colors"
+        )}
+        onClick={() => { if (matchedNote) onEditNote(matchedNote); }}
+      >
         <div className="z-10 flex-shrink-0 h-7 w-7 bg-yellow-100 border border-yellow-300 flex items-center justify-center">
           <MessageSquare className="h-3.5 w-3.5 text-yellow-700" />
         </div>
         <div className="flex-1 min-w-0 pt-0.5">
           {event.noteContent && (
             <div className="bg-yellow-50 border border-yellow-200 p-3 mb-1.5">
-              <p className="text-sm whitespace-pre-wrap line-clamp-6 text-foreground/90">
-                {event.noteContent}
-              </p>
+              <div className="flex items-start justify-between gap-2">
+                <p className="text-sm whitespace-pre-wrap line-clamp-6 text-foreground/90 flex-1">
+                  {event.noteContent}
+                </p>
+                {isEditable && (
+                  <Pencil className="h-3.5 w-3.5 flex-shrink-0 text-muted-foreground opacity-0 group-hover:opacity-60 transition-opacity mt-0.5" />
+                )}
+              </div>
             </div>
           )}
           <p className="text-xs text-muted-foreground">
@@ -1184,20 +1227,28 @@ function TimelineItem({
 // Standalone note item (for notes not in flowEvents — i.e. notes created in the CRM)
 function StandaloneNoteItem({
   note,
+  onEdit,
 }: {
   note: { id: string; content: string; createdAt: string; author?: { name: string } | null };
+  onEdit: () => void;
 }) {
   const time = formatFlowDate(note.createdAt);
   return (
-    <div className="relative flex gap-3 py-2.5 pl-2">
+    <div
+      className="relative flex gap-3 py-2.5 pl-2 group cursor-pointer hover:bg-muted/40 -mx-2 px-2 rounded transition-colors"
+      onClick={onEdit}
+    >
       <div className="z-10 flex-shrink-0 h-7 w-7 bg-yellow-100 border border-yellow-300 flex items-center justify-center">
         <MessageSquare className="h-3.5 w-3.5 text-yellow-700" />
       </div>
       <div className="flex-1 min-w-0 pt-0.5">
         <div className="bg-yellow-50 border border-yellow-200 p-3 mb-1.5">
-          <p className="text-sm whitespace-pre-wrap line-clamp-6 text-foreground/90">
-            {note.content}
-          </p>
+          <div className="flex items-start justify-between gap-2">
+            <p className="text-sm whitespace-pre-wrap line-clamp-6 text-foreground/90 flex-1">
+              {note.content}
+            </p>
+            <Pencil className="h-3.5 w-3.5 flex-shrink-0 text-muted-foreground opacity-0 group-hover:opacity-60 transition-opacity mt-0.5" />
+          </div>
         </div>
         <p className="text-xs text-muted-foreground">
           {time}
@@ -1259,6 +1310,78 @@ function StandaloneActivityItem({
             </p>
           </div>
         )}
+      </div>
+    </div>
+  );
+}
+
+// Note edit modal
+function NoteEditModal({
+  noteId,
+  initialContent,
+  onSuccess,
+  onCancel,
+}: {
+  noteId: string;
+  initialContent: string;
+  onSuccess: () => void;
+  onCancel: () => void;
+}) {
+  const { toast } = useToast();
+  const [content, setContent] = useState(initialContent);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  const handleSave = async () => {
+    if (!content.trim()) return;
+    setIsSubmitting(true);
+    try {
+      const res = await fetch(`/api/notes/${noteId}`, {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ content: content.trim() }),
+      });
+      if (!res.ok) throw new Error("Failed");
+      toast("Note updated");
+      onSuccess();
+    } catch {
+      toast("Failed to update note", "error");
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
+  return (
+    <div className="fixed inset-0 z-50 flex items-center justify-center">
+      <div className="absolute inset-0 bg-black/60" onClick={onCancel} />
+      <div className="relative bg-card border border-border p-6 w-full max-w-md z-10">
+        <div className="flex items-center justify-between mb-5 pb-4 border-b border-border">
+          <h3 className="text-base font-bold">Edit note</h3>
+          <button
+            onClick={onCancel}
+            className="text-muted-foreground hover:text-foreground transition-colors"
+          >
+            <X className="h-4 w-4" />
+          </button>
+        </div>
+        <Textarea
+          value={content}
+          onChange={(e) => setContent(e.target.value)}
+          rows={6}
+          className="mb-4 bg-yellow-50 border-yellow-200 focus:border-yellow-400"
+          autoFocus
+        />
+        <div className="flex gap-2">
+          <Button
+            onClick={handleSave}
+            disabled={isSubmitting || !content.trim()}
+            className="flex-1"
+          >
+            {isSubmitting ? "Saving..." : "Save"}
+          </Button>
+          <Button variant="outline" onClick={onCancel}>
+            Cancel
+          </Button>
+        </div>
       </div>
     </div>
   );

@@ -9,6 +9,8 @@ export const metadata: Metadata = {
   description: "Sales CRM",
 }
 
+export const dynamic = "force-dynamic"
+
 export default async function RootLayout({
   children,
 }: {
