@@ -2,6 +2,7 @@ import { PrismaClient } from "@prisma/client";
 import * as fs from "fs";
 import * as path from "path";
 
+
 const prisma = new PrismaClient();
 
 const DATA_DIR = path.join(__dirname, "../crm-migration/data/raw");
